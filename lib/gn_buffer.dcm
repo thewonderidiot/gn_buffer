@@ -1,5 +1,22 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +23.5V
+D Power symbol creates a global label with name "+24V"
+K power-flag
+$ENDCMP
+#
+$CMP MC305
+D Triple 3-input NOR
+K TTL Nor3
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC306
+D Triple 3-input NOR
+K TTL Nor3
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
 $CMP MicroD-15Pins
 D Generic connector, double row, 15 pins, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
