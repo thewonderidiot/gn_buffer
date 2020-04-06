@@ -5,6 +5,17 @@ D Power symbol creates a global label with name "+24V"
 K power-flag
 $ENDCMP
 #
+$CMP MC301
+D Triple 3-input NOR
+K TTL Nor3
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC302
+D S-R Flip-Flop
+F http://www.ti.com/lit/gpn/sn74LS107
+$ENDCMP
+#
 $CMP MC305
 D Triple 3-input NOR
 K TTL Nor3
@@ -15,6 +26,23 @@ $CMP MC306
 D Triple 3-input NOR
 K TTL Nor3
 F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC307
+D Triple 3-input NOR
+K TTL Nor3
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC308
+D S-R Flip-Flop
+F http://www.ti.com/lit/gpn/sn74LS107
+$ENDCMP
+#
+$CMP MD3251
+D Dual PNP transistor, 6 pin package
+K transistor PNP
+F https://www.diodes.com/assets/Datasheets/ds30437.pdf
 $ENDCMP
 #
 $CMP MicroD-15Pins
