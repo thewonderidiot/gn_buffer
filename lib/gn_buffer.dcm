@@ -1,30 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
 $CMP +23.5V
-D Power symbol creates a global label with name "+24V"
+D Power symbol creates a global label with name "+23.5V"
 K power-flag
 $ENDCMP
 #
 $CMP MC301
-D Triple 3-input NOR
-K TTL Nor3
+D Five-input OR/NOR gate
+K MECL Nor5 Or5
 F http://www.ti.com/lit/gpn/sn74LS27
 $ENDCMP
 #
 $CMP MC302
-D S-R Flip-Flop
+D S-R flip-flop with expandable reset inputs
+K MECL SR FlipFlop
 F http://www.ti.com/lit/gpn/sn74LS107
 $ENDCMP
 #
 $CMP MC305
-D Triple 3-input NOR
-K TTL Nor3
+D Five-input expander
+K MECL Expander
 F http://www.ti.com/lit/gpn/sn74LS27
 $ENDCMP
 #
 $CMP MC306
-D Triple 3-input NOR
-K TTL Nor3
+D Three-input OR/NOR with expandable inputs
+K MECL NOR3
 F http://www.ti.com/lit/gpn/sn74LS27
 $ENDCMP
 #
@@ -37,6 +38,24 @@ $ENDCMP
 $CMP MC308
 D S-R Flip-Flop
 F http://www.ti.com/lit/gpn/sn74LS107
+$ENDCMP
+#
+$CMP MC309
+D Dual two-input NOR gate
+K MECL NOR2
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC310
+D Dual 2-input NOR gate with one pulldown optional
+K MECL NOR2
+F http://www.ti.com/lit/gpn/sn74LS27
+$ENDCMP
+#
+$CMP MC311
+D Dual 2-input NOR with one pulldown omitted and one optional
+K MECL NOR2
+F http://www.ti.com/lit/gpn/sn74LS27
 $ENDCMP
 #
 $CMP MD3251
