@@ -63,7 +63,7 @@ AGC0H
 Wire Wire Line
 	1825 2150 1525 2150
 Text Label 900  2050 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	1825 2050 1400 2050
 NoConn ~ 1850 5300
@@ -854,7 +854,7 @@ $EndComp
 Wire Wire Line
 	8300 3200 7950 3200
 Text Label 7950 3200 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	8650 2250 8950 2250
 Wire Wire Line
@@ -1402,7 +1402,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5700 7950 5700
 Text Label 7950 5700 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	8650 4750 8950 4750
 Wire Wire Line

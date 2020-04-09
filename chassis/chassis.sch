@@ -458,7 +458,7 @@ $EndComp
 Wire Wire Line
 	3425 3050 3775 3050
 Text Label 3775 3050 2    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	2650 2900 3075 2900
 Wire Wire Line
@@ -989,7 +989,7 @@ MC61
 Wire Wire Line
 	10700 1950 10950 1950
 Text Label 5300 2450 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	5650 2450 5300 2450
 $Comp
@@ -1152,25 +1152,25 @@ MC83
 Wire Wire Line
 	7050 6000 6800 6000
 Text Label 6700 5000 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	7050 5000 6700 5000
 Wire Wire Line
-	8000 4900 7550 4900
-Text Label 8000 4900 2    50   ~ 0
+	7800 4900 7550 4900
+Text Label 7800 4900 2    50   ~ 0
 MC42
 Text Label 6850 4500 0    50   ~ 0
 MC41
 Wire Wire Line
 	7050 4500 6850 4500
-Text Label 7850 4400 2    50   ~ 0
+Text Label 7800 4400 2    50   ~ 0
 MC39
-Text Label 6500 5200 0    50   ~ 0
+Text Label 6800 5200 0    50   ~ 0
 MC40
 Wire Wire Line
-	7050 5200 6500 5200
+	7050 5200 6800 5200
 Wire Wire Line
-	7850 4400 7550 4400
+	7800 4400 7550 4400
 $Comp
 L gn_buffer:MicroD-37Pins J6
 U 1 1 5D00B470
@@ -1338,7 +1338,7 @@ Connection ~ 4150 5000
 Wire Wire Line
 	4800 5200 5175 5200
 Text Label 5175 5200 2    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	4800 5000 4900 5000
 Wire Wire Line
@@ -1996,10 +1996,10 @@ Wire Wire Line
 	7050 2850 6700 2850
 Text Label 6700 2850 0    50   ~ 0
 UNKJ5P8
-Text Label 7950 3450 2    50   ~ 0
+Text Label 7900 3450 2    50   ~ 0
 MC41_n
 Wire Wire Line
-	7550 3450 7950 3450
+	7550 3450 7900 3450
 Wire Wire Line
 	7650 3750 7650 3550
 Wire Wire Line
@@ -2014,10 +2014,10 @@ Wire Wire Line
 	6950 3150 6950 3050
 Wire Wire Line
 	6950 3050 7050 3050
-Text Label 7950 4500 2    50   ~ 0
+Text Label 7900 4500 2    50   ~ 0
 MC41_n
 Wire Wire Line
-	7550 4500 7950 4500
+	7550 4500 7900 4500
 Wire Wire Line
 	7550 2950 7800 2950
 Text Label 7800 2950 2    50   ~ 0

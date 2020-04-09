@@ -43,7 +43,7 @@ MC83
 Wire Wire Line
 	1200 2550 950  2550
 Text Label 900  1550 0    50   ~ 0
-PGOOD_n
+VFAIL
 Wire Wire Line
 	1200 1550 900  1550
 Wire Wire Line
@@ -950,7 +950,7 @@ Wire Wire Line
 Wire Wire Line
 	3150 5400 3150 6350
 Text Label 2500 5200 0    50   ~ 0
-PGOOD_n
+VFAIL
 Connection ~ 2900 5200
 Wire Wire Line
 	2900 5200 2500 5200
