@@ -27,37 +27,37 @@ F 3 "" H 675 775 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 950  2350 0    50   ~ 0
-TP86
+MC86
 Wire Wire Line
 	1200 2350 950  2350
 Text Label 1950 2350 2    50   ~ 0
-TP85
+MC85
 Wire Wire Line
 	1700 2350 1950 2350
 Text Label 1950 2550 2    50   ~ 0
-TP84
+MC84
 Wire Wire Line
 	1700 2550 1950 2550
 Text Label 950  2550 0    50   ~ 0
-TP83
+MC83
 Wire Wire Line
 	1200 2550 950  2550
 Text Label 900  1550 0    50   ~ 0
-TP44
+PGOOD_n
 Wire Wire Line
 	1200 1550 900  1550
 Wire Wire Line
 	2150 1450 1700 1450
 Text Label 2150 1450 2    50   ~ 0
-MODE_CHK
+MC42
 Text Label 1000 1050 0    50   ~ 0
-BNB
+MC41
 Wire Wire Line
 	1200 1050 1000 1050
 Text Label 2000 950  2    50   ~ 0
-GNSEL
+MC39
 Text Label 650  1750 0    50   ~ 0
-GRP_DEC_CHK
+MC40
 Wire Wire Line
 	1200 1750 650  1750
 Wire Wire Line
@@ -132,23 +132,23 @@ ALLZERO
 Wire Wire Line
 	1700 1850 2100 1850
 Text Label 2100 1850 2    50   ~ 0
-UNKJ6P27
+UNKJ5P28
 Wire Wire Line
 	1200 1450 800  1450
 Text Label 800  1450 0    50   ~ 0
-UNKJ6P12
+UNKJ5P9
 Wire Wire Line
 	1200 1250 800  1250
 Text Label 800  1250 0    50   ~ 0
-UNKJ6P14
+UNKJ5P8
 Wire Wire Line
 	1200 950  800  950 
 Text Label 800  950  0    50   ~ 0
-UNKJ6P17
+MC01
 Wire Wire Line
 	1200 850  800  850 
 Text Label 800  850  0    50   ~ 0
-UNKJ6P18
+UNKJ5P2
 Wire Wire Line
 	1700 1150 2100 1150
 Text Label 2100 1150 2    50   ~ 0
@@ -156,7 +156,7 @@ UNKJ6P34
 Wire Wire Line
 	1700 1050 2100 1050
 Text Label 2100 1050 2    50   ~ 0
-UNKJ6P35
+MC41_n
 $Comp
 L gn_buffer:MD3251 Q2
 U 1 1 5E89A527
@@ -188,9 +188,9 @@ Wire Wire Line
 Wire Wire Line
 	6500 8250 6750 8250
 Text Label 6750 8250 2    50   ~ 0
-TP83
+MC83
 Text Label 6750 8350 2    50   ~ 0
-TP84
+MC84
 $Comp
 L gn_buffer:MD3251 Q1
 U 1 1 5E89F3EB
@@ -222,9 +222,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 8250 8250 8250
 Text Label 8250 8250 2    50   ~ 0
-TP85
+MC85
 Text Label 8250 8350 2    50   ~ 0
-TP86
+MC86
 $Comp
 L Device:R_US R4
 U 1 1 5E8A5E4F
@@ -915,7 +915,7 @@ F 3 "" H 4600 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 5250 5100 2    50   ~ 0
-GNSEL
+MC39
 Wire Wire Line
 	4950 5100 5250 5100
 Wire Wire Line
@@ -949,11 +949,11 @@ Wire Wire Line
 	3150 6350 3450 6350
 Wire Wire Line
 	3150 5400 3150 6350
-Text Label 2650 5200 0    50   ~ 0
-TP44
+Text Label 2500 5200 0    50   ~ 0
+PGOOD_n
 Connection ~ 2900 5200
 Wire Wire Line
-	2900 5200 2650 5200
+	2900 5200 2500 5200
 Connection ~ 3300 5200
 Wire Wire Line
 	3450 5200 3300 5200
@@ -992,7 +992,7 @@ F 3 "~" H 3100 4950 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text Label 2650 5400 0    50   ~ 0
-UNKJ6P12
+UNKJ5P9
 Wire Wire Line
 	3450 5400 3150 5400
 NoConn ~ 3450 5500
@@ -1044,14 +1044,14 @@ NoConn ~ 6100 6450
 Wire Wire Line
 	6100 6350 5900 6350
 Text Label 5900 6350 0    50   ~ 0
-BNB
+MC41
 NoConn ~ 6400 6650
 Wire Wire Line
 	6500 6650 6500 7150
 Wire Wire Line
 	5450 7450 5300 7450
 Text Label 4750 7450 0    50   ~ 0
-UNKJ6P27
+UNKJ5P28
 NoConn ~ 6800 6100
 Wire Wire Line
 	5300 7450 5300 7150
@@ -1090,11 +1090,11 @@ CLK
 Wire Wire Line
 	7650 6350 7250 6350
 Text Label 7250 6350 0    50   ~ 0
-UNKJ6P18
+UNKJ5P2
 Wire Wire Line
 	8350 6100 8750 6100
 Text Label 8750 6100 2    50   ~ 0
-UNKJ6P17
+MC01
 Wire Wire Line
 	7000 6100 7650 6100
 Wire Wire Line
@@ -1149,7 +1149,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 5750 5200 5750
 Text Label 5200 5750 2    50   ~ 0
-GRP_DEC_CHK
+MC40
 Wire Wire Line
 	4750 6100 4750 6850
 Wire Wire Line
@@ -1195,9 +1195,9 @@ Wire Wire Line
 NoConn ~ 4550 9150
 NoConn ~ 4550 8900
 Wire Wire Line
-	4550 9050 4100 9050
-Text Label 4100 9050 0    50   ~ 0
-UNKJ6P28
+	4550 9050 4200 9050
+Text Label 4200 9050 0    50   ~ 0
+MC41_n
 Wire Wire Line
 	4100 6850 4100 8800
 Wire Wire Line
@@ -1281,7 +1281,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 9050 6300 9050
 Text Label 6300 9050 0    50   ~ 0
-UNKJ6P14
+UNKJ5P8
 NoConn ~ 6750 8900
 NoConn ~ 6750 9150
 $Comp
@@ -1329,5 +1329,5 @@ Wire Wire Line
 	7550 9100 8450 9100
 Connection ~ 7550 9100
 Text Label 8450 9100 2    50   ~ 0
-MODE_CHK
+MC42
 $EndSCHEMATC

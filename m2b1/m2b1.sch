@@ -63,7 +63,7 @@ AGC0H
 Wire Wire Line
 	1825 2150 1525 2150
 Text Label 900  2050 0    50   ~ 0
-ENABLE_n
+PGOOD_n
 Wire Wire Line
 	1825 2050 1400 2050
 NoConn ~ 1850 5300
@@ -204,11 +204,11 @@ Wire Wire Line
 Text Label 1550 5600 0    50   ~ 0
 NONZERO
 Text Label 2725 1650 2    50   ~ 0
-BUF_CHK
+B18_SHFT
 Wire Wire Line
 	2325 1650 2725 1650
 Text Label 2775 2550 2    50   ~ 0
-BUF_CHK_n
+B18_SHFT_n
 Wire Wire Line
 	2325 2550 2775 2550
 $Comp
@@ -505,7 +505,7 @@ CLK
 Wire Wire Line
 	5500 2650 5050 2650
 Text Label 5050 2650 0    50   ~ 0
-BUF_CHK
+B18_SHFT
 NoConn ~ 5500 2550
 NoConn ~ 5750 2900
 NoConn ~ 5850 2900
@@ -854,7 +854,7 @@ $EndComp
 Wire Wire Line
 	8300 3200 7950 3200
 Text Label 7950 3200 0    50   ~ 0
-ENABLE_n
+PGOOD_n
 Wire Wire Line
 	8650 2250 8950 2250
 Wire Wire Line
@@ -1064,7 +1064,7 @@ CLK
 Wire Wire Line
 	5500 5250 5050 5250
 Text Label 5050 5250 0    50   ~ 0
-BUF_CHK_n
+B18_SHFT_n
 NoConn ~ 5500 5050
 NoConn ~ 5750 5400
 NoConn ~ 5850 5400
@@ -1402,7 +1402,7 @@ Wire Wire Line
 Wire Wire Line
 	8300 5700 7950 5700
 Text Label 7950 5700 0    50   ~ 0
-ENABLE_n
+PGOOD_n
 Wire Wire Line
 	8650 4750 8950 4750
 Wire Wire Line

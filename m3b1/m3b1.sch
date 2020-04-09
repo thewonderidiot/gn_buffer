@@ -14,51 +14,51 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 2050 1500 2    50   ~ 0
-TP87
+MC87
 Wire Wire Line
 	1800 1500 2050 1500
 Text Label 2050 2100 2    50   ~ 0
-TP82
+MC82
 Wire Wire Line
 	1800 2100 2050 2100
 Text Label 1050 2000 0    50   ~ 0
-TP81
+MC81
 Wire Wire Line
 	1300 2000 1050 2000
-Text Label 950  1200 0    50   ~ 0
-INDF0L
+Text Label 1050 1200 0    50   ~ 0
+MC80
 Wire Wire Line
-	1300 1200 950  1200
-Text Label 950  1400 0    50   ~ 0
-INDF0H
+	1300 1200 1050 1200
+Text Label 1050 1400 0    50   ~ 0
+MC79
 Wire Wire Line
-	1300 1400 950  1400
-Text Label 950  1300 0    50   ~ 0
-INDF1L
+	1300 1400 1050 1400
+Text Label 1050 1300 0    50   ~ 0
+MC78
 Wire Wire Line
-	1300 1300 950  1300
-Text Label 950  1500 0    50   ~ 0
-INDF1H
+	1300 1300 1050 1300
+Text Label 1050 1500 0    50   ~ 0
+MC77
 Wire Wire Line
-	1300 1500 950  1500
+	1300 1500 1050 1500
 Text Label 1100 2800 0    50   ~ 0
-BNB
+MC41
 Wire Wire Line
 	1300 2800 1100 2800
 Text Label 1050 1800 0    50   ~ 0
-B02L
+IN02L
 Wire Wire Line
 	1300 1800 1050 1800
 Text Label 1050 1700 0    50   ~ 0
-B02H
+IN02H
 Wire Wire Line
 	1300 1700 1050 1700
 Text Label 2050 1300 2    50   ~ 0
-B01L
+IN01L
 Wire Wire Line
 	1800 1300 2050 1300
 Text Label 2050 1400 2    50   ~ 0
-B01H
+IN01H
 Wire Wire Line
 	1800 1400 2050 1400
 $Comp
@@ -89,7 +89,7 @@ NoConn ~ 1800 2300
 Wire Wire Line
 	1300 1600 1050 1600
 Text Label 1050 1600 0    50   ~ 0
-TP88
+MC88
 NoConn ~ 1800 1700
 Wire Wire Line
 	1150 2550 1150 2600
@@ -161,12 +161,12 @@ Wire Wire Line
 	3900 4450 3500 4450
 Connection ~ 3900 4450
 Text Label 3500 4450 0    50   ~ 0
-B01H
+IN01H
 Wire Wire Line
 	3900 4050 3500 4050
 Connection ~ 3900 4050
 Text Label 3500 4050 0    50   ~ 0
-B01L
+IN01L
 NoConn ~ 4700 4250
 $Comp
 L gn_buffer:MC306 U3
@@ -208,12 +208,12 @@ Wire Wire Line
 	4200 2550 3800 2550
 Connection ~ 4200 2550
 Text Label 3800 2550 0    50   ~ 0
-INDF0H
+MC79
 Wire Wire Line
 	4200 2150 3800 2150
 Connection ~ 4200 2150
 Text Label 3800 2150 0    50   ~ 0
-INDF0L
+MC80
 $Comp
 L gn_buffer:MC306 U2
 U 1 1 5E889F00
@@ -252,12 +252,12 @@ Wire Wire Line
 	4200 1400 3800 1400
 Connection ~ 4200 1400
 Text Label 3800 1400 0    50   ~ 0
-INDF1H
+MC77
 Wire Wire Line
 	4200 1000 3800 1000
 Connection ~ 4200 1000
 Text Label 3800 1000 0    50   ~ 0
-INDF1L
+MC78
 $Comp
 L gn_buffer:MC307 U1
 U 1 1 5E899F90
@@ -323,9 +323,9 @@ Wire Wire Line
 Wire Wire Line
 	6950 2150 7300 2150
 Text Label 7300 2150 2    50   ~ 0
-TP87
+MC87
 Text Label 7300 2250 2    50   ~ 0
-TP88
+MC88
 $Comp
 L gn_buffer:MC306 U7
 U 1 1 5E8B1411
@@ -366,12 +366,12 @@ Wire Wire Line
 	3900 5200 3500 5200
 Connection ~ 3900 5200
 Text Label 3500 5200 0    50   ~ 0
-B02H
+IN02H
 Wire Wire Line
 	3900 4800 3500 4800
 Connection ~ 3900 4800
 Text Label 3500 4800 0    50   ~ 0
-B02L
+IN02L
 NoConn ~ 4700 5000
 $Comp
 L gn_buffer:MC306 U6
@@ -445,13 +445,13 @@ Wire Wire Line
 Text Label 2250 2200 2    50   ~ 0
 UNKJ5P28
 Wire Wire Line
-	1800 2400 2250 2400
-Text Label 2250 2400 2    50   ~ 0
-UNKJ5P26
+	1800 2400 2050 2400
+Text Label 2050 2400 2    50   ~ 0
+MC01
 Wire Wire Line
 	1800 2900 2100 2900
 Text Label 2100 2900 2    50   ~ 0
-BNB_n
+MC41_n
 Text Label 900  2900 0    50   ~ 0
 UNKJ5P2
 Wire Wire Line
@@ -519,7 +519,7 @@ UNKJ5P9
 Wire Wire Line
 	8350 2450 7850 2450
 Text Label 7400 2450 0    50   ~ 0
-UNKJ5P26
+MC01
 Wire Wire Line
 	7850 2450 7850 3350
 Wire Wire Line
@@ -763,11 +763,11 @@ Wire Wire Line
 	8850 1450 8650 1450
 NoConn ~ 8850 1250
 Text Label 8650 1450 0    50   ~ 0
-BNB
+MC41
 Wire Wire Line
 	9550 1350 9800 1350
 Text Label 9800 1350 2    50   ~ 0
-BNB_n
+MC41_n
 $Comp
 L Device:R_US R7
 U 1 1 5E99C439
@@ -780,13 +780,13 @@ F 3 "~" H 9200 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10150 4500 2    50   ~ 0
-TP82
+MC82
 Wire Wire Line
 	9550 4500 10150 4500
 Wire Wire Line
 	9550 3900 9550 4500
 Text Label 10150 4400 2    50   ~ 0
-TP81
+MC81
 Wire Wire Line
 	9800 4400 10150 4400
 Wire Wire Line
