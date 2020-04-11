@@ -128,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 1150 900  1150
 Text Label 900  1150 0    50   ~ 0
-ALLZERO
+BUFSET
 Wire Wire Line
 	1700 1850 2100 1850
 Text Label 2100 1850 2    50   ~ 0
@@ -152,7 +152,7 @@ UNKJ5P2
 Wire Wire Line
 	1700 1150 2100 1150
 Text Label 2100 1150 2    50   ~ 0
-UNKJ6P34
+B02SET
 Wire Wire Line
 	1700 1050 2100 1050
 Text Label 2100 1050 2    50   ~ 0
@@ -599,11 +599,11 @@ NoConn ~ 7450 1150
 Wire Wire Line
 	6800 1250 6400 1250
 Text Label 6400 1250 0    50   ~ 0
-ALLZERO
+BUFSET
 Wire Wire Line
 	6800 1350 6400 1350
 Text Label 6400 1350 0    50   ~ 0
-UNKJ6P34
+B02SET
 Wire Wire Line
 	7450 1350 7700 1350
 Text Label 7700 1350 2    50   ~ 0

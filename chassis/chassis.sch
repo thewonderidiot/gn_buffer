@@ -443,7 +443,7 @@ $EndComp
 Wire Wire Line
 	1000 3300 650  3300
 Text Label 650  3300 0    50   ~ 0
-B18_SHFT
+BUF16
 $Comp
 L Device:R_US R5
 U 1 1 5D1695C8
@@ -900,32 +900,18 @@ Wire Wire Line
 	5650 2550 5350 2550
 Text Label 7800 2050 2    50   ~ 0
 MC87
-Wire Wire Line
-	7550 2050 7800 2050
 Text Label 7800 2650 2    50   ~ 0
 MC82
-Wire Wire Line
-	7550 2650 7800 2650
 Text Label 6800 2550 0    50   ~ 0
 MC81
-Wire Wire Line
-	7050 2550 6800 2550
 Text Label 6800 1750 0    50   ~ 0
 MC80
-Wire Wire Line
-	7050 1750 6800 1750
 Text Label 6800 1950 0    50   ~ 0
 MC79
-Wire Wire Line
-	7050 1950 6800 1950
 Text Label 6800 1850 0    50   ~ 0
 MC78
-Wire Wire Line
-	7050 1850 6800 1850
 Text Label 6800 2050 0    50   ~ 0
 MC77
-Wire Wire Line
-	7050 2050 6800 2050
 Text Label 8350 2950 0    50   ~ 0
 MC76
 Wire Wire Line
@@ -988,10 +974,10 @@ Text Label 10950 1950 2    50   ~ 0
 MC61
 Wire Wire Line
 	10700 1950 10950 1950
-Text Label 5300 2450 0    50   ~ 0
+Text Label 5400 2450 0    50   ~ 0
 VFAIL
 Wire Wire Line
-	5650 2450 5300 2450
+	5650 2450 5400 2450
 $Comp
 L gn_buffer:MicroD-37Pins J3
 U 1 1 5D141887
@@ -1004,11 +990,9 @@ F 3 "~" H 5850 2650 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8600 3450 8200 3450
+	8600 3450 8250 3450
 Text Label 6850 3350 0    50   ~ 0
 MC41
-Wire Wire Line
-	7050 3350 6850 3350
 Text Label 9350 2950 2    50   ~ 0
 IN18L
 Wire Wire Line
@@ -1097,31 +1081,12 @@ F 3 "~" H 10400 2650 50  0001 C CNN
 $EndComp
 Text Label 6800 2350 0    50   ~ 0
 IN02L
-Wire Wire Line
-	7050 2350 6800 2350
 Text Label 6800 2250 0    50   ~ 0
 IN02H
-Wire Wire Line
-	7050 2250 6800 2250
 Text Label 7800 1850 2    50   ~ 0
 IN01L
-Wire Wire Line
-	7550 1850 7800 1850
 Text Label 7800 1950 2    50   ~ 0
 IN01H
-Wire Wire Line
-	7550 1950 7800 1950
-$Comp
-L gn_buffer:MicroD-37Pins J5
-U 1 1 5CFAFEDC
-P 7250 2650
-F 0 "J5" H 7300 3767 50  0000 C CNN
-F 1 "MicroD-37Pins" H 7300 3676 50  0000 C CNN
-F 2 "" H 7250 2650 50  0001 C CNN
-F 3 "~" H 7250 2650 50  0001 C CNN
-	1    7250 2650
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	7650 4300 7550 4300
 $Comp
@@ -1228,25 +1193,8 @@ NoConn ~ 6150 2250
 NoConn ~ 6150 2150
 NoConn ~ 6150 1950
 NoConn ~ 6150 1850
-NoConn ~ 7050 3250
-NoConn ~ 7050 3150
-NoConn ~ 7050 2950
-NoConn ~ 7050 2650
-NoConn ~ 7050 2450
-NoConn ~ 7550 3350
-NoConn ~ 7550 3250
-NoConn ~ 7550 3150
-NoConn ~ 7550 3050
-NoConn ~ 7550 2150
-NoConn ~ 7550 2350
-NoConn ~ 7550 2450
-NoConn ~ 7550 2550
-NoConn ~ 7550 2850
-Wire Wire Line
-	7050 2150 6800 2150
 Text Label 6800 2150 0    50   ~ 0
 MC88
-NoConn ~ 7550 2250
 NoConn ~ 7050 5900
 NoConn ~ 7550 5900
 NoConn ~ 7050 5700
@@ -1560,8 +1508,6 @@ F 3 "" H 6925 3600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7050 3550 6925 3550
-Wire Wire Line
 	6925 3550 6925 3600
 $Comp
 L gn_buffer:VBB #PWR?
@@ -1664,8 +1610,6 @@ F 3 "" H 9625 3525 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9625 3550 9625 3525
-Wire Wire Line
-	9625 3550 10200 3550
 $Comp
 L gn_buffer:VBB #PWR?
 U 1 1 5F84E185
@@ -1725,31 +1669,31 @@ $EndComp
 Wire Wire Line
 	10700 2650 11025 2650
 Text Label 11025 2650 2    50   ~ 0
-BITJ3P2
+B10SET
 Wire Wire Line
 	5650 5900 5350 5900
 Text Label 5350 5900 0    50   ~ 0
-BITJ4P2
+B01SET
 Wire Wire Line
 	8600 5800 8300 5800
 Text Label 8300 5800 0    50   ~ 0
-BITJ4P2
+B01SET
 Wire Wire Line
 	8600 4400 8275 4400
 Text Label 8275 4400 0    50   ~ 0
-BITJ4P20
+B04SET
 Wire Wire Line
 	6150 6000 6500 6000
 Text Label 6500 6000 2    50   ~ 0
-BITJ4P20
+B04SET
 Wire Wire Line
 	6150 5900 6500 5900
 Text Label 6500 5900 2    50   ~ 0
-BITJ4P21
+B03SET
 Wire Wire Line
-	9100 4500 9450 4500
-Text Label 9450 4500 2    50   ~ 0
-BITJ4P21
+	9100 4500 9400 4500
+Text Label 9400 4500 2    50   ~ 0
+B03SET
 NoConn ~ 10200 3250
 NoConn ~ 10200 3150
 NoConn ~ 10200 3050
@@ -1765,181 +1709,177 @@ NoConn ~ 10700 5100
 Wire Wire Line
 	10700 4500 11025 4500
 Text Label 11025 4500 2    50   ~ 0
-BITJ4P3
+B07SET
 Wire Wire Line
 	5650 5800 5350 5800
 Text Label 5350 5800 0    50   ~ 0
-BITJ4P3
+B07SET
 Wire Wire Line
-	10200 5100 9875 5100
-Text Label 9875 5100 0    50   ~ 0
-BITJ4P22
+	10200 5100 9925 5100
+Text Label 9925 5100 0    50   ~ 0
+B06SET
 Wire Wire Line
 	6150 5800 6500 5800
 Text Label 6500 5800 2    50   ~ 0
-BITJ4P22
+B06SET
 Wire Wire Line
 	6150 5700 6500 5700
 Text Label 6500 5700 2    50   ~ 0
-BITJ4P23
+B05SET
 Wire Wire Line
-	10700 5700 11050 5700
-Text Label 11050 5700 2    50   ~ 0
-BITJ4P23
+	10700 5700 11000 5700
+Text Label 11000 5700 2    50   ~ 0
+B05SET
 Wire Wire Line
 	10200 4400 9875 4400
 Text Label 9875 4400 0    50   ~ 0
-BITJ4P24
+B08SET
 Wire Wire Line
 	6150 5600 6500 5600
 Text Label 6500 5600 2    50   ~ 0
-BITJ4P24
+B08SET
 Wire Wire Line
 	5650 3450 5350 3450
 Text Label 5350 3450 0    50   ~ 0
-BITJ3P2
+B10SET
 Wire Wire Line
 	5650 3550 5350 3550
 Text Label 5350 3550 0    50   ~ 0
-BITJ3P1
+B12SET
 Wire Wire Line
 	10700 3450 11025 3450
 Text Label 11025 3450 2    50   ~ 0
-BITJ3P1
+B12SET
 Wire Wire Line
 	10700 3350 11025 3350
 Text Label 11025 3350 2    50   ~ 0
-BITJ3P3
+B11SET
 Wire Wire Line
 	5650 3350 5350 3350
 Text Label 5350 3350 0    50   ~ 0
-BITJ3P3
+B11SET
 Wire Wire Line
-	9100 2650 9425 2650
-Text Label 9425 2650 2    50   ~ 0
-BITJ3P5
+	9100 2650 9375 2650
+Text Label 9375 2650 2    50   ~ 0
+B14SET
 Wire Wire Line
 	5650 3150 5350 3150
 Text Label 5350 3150 0    50   ~ 0
-BITJ3P5
+B14SET
 Wire Wire Line
 	6150 3550 6500 3550
 Text Label 6500 3550 2    50   ~ 0
-BITJ3P20
+B15SET
 Wire Wire Line
-	9100 3350 9450 3350
-Text Label 9450 3350 2    50   ~ 0
-BITJ3P20
+	9100 3350 9400 3350
+Text Label 9400 3350 2    50   ~ 0
+B15SET
 Wire Wire Line
 	6150 3450 6500 3450
 Text Label 6500 3450 2    50   ~ 0
-BITJ3P21
+B09SET
 Wire Wire Line
-	10700 2050 11050 2050
-Text Label 11050 2050 2    50   ~ 0
-BITJ3P21
+	10700 2050 11000 2050
+Text Label 11000 2050 2    50   ~ 0
+B09SET
 Wire Wire Line
 	6150 3350 6500 3350
 Text Label 6500 3350 2    50   ~ 0
-BITJ3P22
+B16SET
 Wire Wire Line
-	9100 3450 9450 3450
-Text Label 9450 3450 2    50   ~ 0
-BITJ3P22
+	9100 3450 9400 3450
+Text Label 9400 3450 2    50   ~ 0
+B16SET
 Wire Wire Line
 	6150 3250 6500 3250
 Text Label 6500 3250 2    50   ~ 0
-BITJ3P23
+B13SET
 Wire Wire Line
-	9100 2050 9450 2050
-Text Label 9450 2050 2    50   ~ 0
-BITJ3P23
+	9100 2050 9400 2050
+Text Label 9400 2050 2    50   ~ 0
+B13SET
 Wire Wire Line
 	5650 6000 5350 6000
 Text Label 5350 6000 0    50   ~ 0
-ALLZERO
+BUFSET
 Wire Wire Line
 	7050 4600 6750 4600
 Text Label 6750 4600 0    50   ~ 0
-ALLZERO
-Text Label 6550 2050 2    50   ~ 0
-B18_SHFT
+BUFSET
+Text Label 6450 2050 2    50   ~ 0
+BUF16
 Wire Wire Line
-	6150 2050 6550 2050
-Text Label 6650 2950 2    50   ~ 0
-B18_SHFT_n
+	6150 2050 6450 2050
+Text Label 6550 2950 2    50   ~ 0
+BUF16_n
 Wire Wire Line
-	6150 2950 6650 2950
-Text Label 8150 3350 0    50   ~ 0
-B18_SHFT_n
+	6150 2950 6550 2950
+Text Label 8250 3350 0    50   ~ 0
+BUF16_n
 Wire Wire Line
-	8600 3350 8150 3350
+	8600 3350 8250 3350
 Text Label 9350 2750 2    50   ~ 0
 MC74
+Text Label 9850 3450 0    50   ~ 0
+BUF12
 Wire Wire Line
-	10200 3450 9750 3450
-Text Label 9750 3450 0    50   ~ 0
-B14_SHFT
+	9100 2350 9450 2350
+Text Label 9450 2350 2    50   ~ 0
+BUF12
+Text Label 9850 3350 0    50   ~ 0
+BUF12_n
 Wire Wire Line
-	9100 2350 9550 2350
-Text Label 9550 2350 2    50   ~ 0
-B14_SHFT
+	9100 2150 9450 2150
+Text Label 9450 2150 2    50   ~ 0
+BUF12_n
 Wire Wire Line
-	10200 3350 9750 3350
-Text Label 9750 3350 0    50   ~ 0
-B14_SHFT_n
+	10700 4400 11050 4400
+Text Label 11050 4400 2    50   ~ 0
+BUF08_n
 Wire Wire Line
-	9100 2150 9550 2150
-Text Label 9550 2150 2    50   ~ 0
-B14_SHFT_n
+	10700 2150 11050 2150
+Text Label 11050 2150 2    50   ~ 0
+BUF08_n
 Wire Wire Line
-	10700 4400 11150 4400
-Text Label 11150 4400 2    50   ~ 0
-B10_SHFT_n
+	10700 2350 11000 2350
+Text Label 11000 2350 2    50   ~ 0
+BUF08
 Wire Wire Line
-	10700 2150 11150 2150
-Text Label 11150 2150 2    50   ~ 0
-B10_SHFT_n
+	10700 4300 11050 4300
+Text Label 11050 4300 2    50   ~ 0
+BUF08
 Wire Wire Line
-	10700 2350 11150 2350
-Text Label 11150 2350 2    50   ~ 0
-B10_SHFT
+	10700 5500 11000 5500
+Text Label 11000 5500 2    50   ~ 0
+BUF04
 Wire Wire Line
-	10700 4300 11150 4300
-Text Label 11150 4300 2    50   ~ 0
-B10_SHFT
+	9100 4300 9450 4300
+Text Label 9450 4300 2    50   ~ 0
+BUF04
 Wire Wire Line
-	10700 5500 11100 5500
-Text Label 11100 5500 2    50   ~ 0
-B6_SHFT
+	10200 5800 9850 5800
+Text Label 9850 5800 0    50   ~ 0
+BUF04_n
 Wire Wire Line
-	9100 4300 9500 4300
-Text Label 9500 4300 2    50   ~ 0
-B6_SHFT
-Wire Wire Line
-	10200 5800 9800 5800
-Text Label 9800 5800 0    50   ~ 0
-B6_SHFT_n
-Wire Wire Line
-	9100 4400 9500 4400
-Text Label 9500 4400 2    50   ~ 0
-B6_SHFT_n
-Text Label 8400 2050 0    50   ~ 0
+	9100 4400 9450 4400
+Text Label 9450 4400 2    50   ~ 0
+BUF04_n
+Text Label 8350 2050 0    50   ~ 0
 MC41
 Wire Wire Line
-	8600 2050 8400 2050
-Text Label 10000 2050 0    50   ~ 0
+	8600 2050 8350 2050
+Text Label 9950 2050 0    50   ~ 0
 MC41
 Wire Wire Line
-	10200 2050 10000 2050
-Text Label 10000 5700 0    50   ~ 0
+	10200 2050 9950 2050
+Text Label 9950 5700 0    50   ~ 0
 MC41
 Wire Wire Line
-	10200 5700 10000 5700
-Text Label 8400 5700 0    50   ~ 0
+	10200 5700 9950 5700
+Text Label 8350 5700 0    50   ~ 0
 MC41
 Wire Wire Line
-	8600 5700 8400 5700
+	8600 5700 8350 5700
 Text Label 8350 2150 0    50   ~ 0
 MC39
 Wire Wire Line
@@ -1957,23 +1897,21 @@ MC39
 Wire Wire Line
 	9950 5600 10200 5600
 Wire Wire Line
-	8200 2350 8600 2350
-Text Label 8200 2350 0    50   ~ 0
+	8350 2350 8600 2350
+Text Label 8350 2350 0    50   ~ 0
 MC42
 Wire Wire Line
-	9800 2350 10200 2350
-Text Label 9800 2350 0    50   ~ 0
+	9950 2350 10200 2350
+Text Label 9950 2350 0    50   ~ 0
 MC42
 Wire Wire Line
-	8200 5400 8600 5400
-Text Label 8200 5400 0    50   ~ 0
+	8350 5400 8600 5400
+Text Label 8350 5400 0    50   ~ 0
 MC42
 Wire Wire Line
-	9800 5400 10200 5400
-Text Label 9800 5400 0    50   ~ 0
+	9950 5400 10200 5400
+Text Label 9950 5400 0    50   ~ 0
 MC42
-Wire Wire Line
-	7050 3450 6700 3450
 Text Label 6700 3450 0    50   ~ 0
 UNKJ5P2
 Wire Wire Line
@@ -1984,26 +1922,18 @@ Wire Wire Line
 	7050 4900 6650 4900
 Text Label 6650 4900 0    50   ~ 0
 UNKJ5P9
-Wire Wire Line
-	7050 2750 6700 2750
 Text Label 6700 2750 0    50   ~ 0
 UNKJ5P9
 Wire Wire Line
 	7050 4700 6650 4700
 Text Label 6650 4700 0    50   ~ 0
 UNKJ5P8
-Wire Wire Line
-	7050 2850 6700 2850
 Text Label 6700 2850 0    50   ~ 0
 UNKJ5P8
 Text Label 7900 3450 2    50   ~ 0
 MC41_n
 Wire Wire Line
-	7550 3450 7900 3450
-Wire Wire Line
 	7650 3750 7650 3550
-Wire Wire Line
-	7650 3550 7550 3550
 Wire Wire Line
 	8500 3750 8500 3550
 Wire Wire Line
@@ -2012,14 +1942,10 @@ Wire Wire Line
 	6850 3150 6950 3150
 Wire Wire Line
 	6950 3150 6950 3050
-Wire Wire Line
-	6950 3050 7050 3050
 Text Label 7900 4500 2    50   ~ 0
 MC41_n
 Wire Wire Line
 	7550 4500 7900 4500
-Wire Wire Line
-	7550 2950 7800 2950
 Text Label 7800 2950 2    50   ~ 0
 MC01
 Wire Wire Line
@@ -2030,22 +1956,20 @@ Wire Wire Line
 	7050 4400 6800 4400
 Text Label 6800 4400 0    50   ~ 0
 MC01
-Wire Wire Line
-	7550 2750 7950 2750
 Text Label 7950 2750 2    50   ~ 0
 UNKJ5P28
 Wire Wire Line
 	7550 5300 7950 5300
 Text Label 7950 5300 2    50   ~ 0
 UNKJ5P28
-Text Label 7950 4600 2    50   ~ 0
-UNKJ6P34
+Text Label 7900 4600 2    50   ~ 0
+B02SET
 Wire Wire Line
-	7550 4600 7950 4600
-Text Label 8200 5100 0    50   ~ 0
-UNKJ6P34
+	7550 4600 7900 4600
+Text Label 8300 5100 0    50   ~ 0
+B02SET
 Wire Wire Line
-	8600 5100 8200 5100
+	8600 5100 8300 5100
 NoConn ~ 4300 5100
 NoConn ~ 4300 5200
 NoConn ~ 4300 5300
@@ -2056,6 +1980,82 @@ Text Label 3450 800  2    50   ~ 0
 CLK
 Text Label 1200 800  0    50   ~ 0
 MC01
-Text Label 8200 3450 0    50   ~ 0
-B18_SHFT
+Text Label 8250 3450 0    50   ~ 0
+BUF16
+Wire Wire Line
+	9625 3550 10200 3550
+Wire Wire Line
+	10200 3450 9850 3450
+Wire Wire Line
+	10200 3350 9850 3350
+Wire Wire Line
+	7050 2750 6700 2750
+Wire Wire Line
+	7050 2850 6700 2850
+NoConn ~ 7050 2950
+Wire Wire Line
+	6950 3050 7050 3050
+NoConn ~ 7050 3150
+NoConn ~ 7050 3250
+Wire Wire Line
+	7550 1850 7800 1850
+Wire Wire Line
+	7550 1950 7800 1950
+Wire Wire Line
+	7550 2050 7800 2050
+NoConn ~ 7550 2150
+NoConn ~ 7550 2250
+NoConn ~ 7550 2350
+NoConn ~ 7550 2450
+NoConn ~ 7550 2550
+Wire Wire Line
+	7050 3350 6850 3350
+Wire Wire Line
+	7550 2650 7800 2650
+Wire Wire Line
+	7550 2750 7950 2750
+NoConn ~ 7550 2850
+Wire Wire Line
+	7550 2950 7800 2950
+NoConn ~ 7550 3050
+NoConn ~ 7550 3150
+NoConn ~ 7550 3250
+NoConn ~ 7550 3350
+Wire Wire Line
+	7550 3450 7900 3450
+Wire Wire Line
+	7650 3550 7550 3550
+Wire Wire Line
+	7050 3450 6700 3450
+Wire Wire Line
+	7050 1750 6800 1750
+Wire Wire Line
+	7050 1850 6800 1850
+Wire Wire Line
+	7050 1950 6800 1950
+Wire Wire Line
+	7050 2050 6800 2050
+Wire Wire Line
+	7050 2150 6800 2150
+Wire Wire Line
+	7050 2250 6800 2250
+Wire Wire Line
+	7050 2350 6800 2350
+NoConn ~ 7050 2450
+Wire Wire Line
+	7050 2550 6800 2550
+NoConn ~ 7050 2650
+Wire Wire Line
+	7050 3550 6925 3550
+$Comp
+L gn_buffer:MicroD-37Pins J5
+U 1 1 5CFAFEDC
+P 7250 2650
+F 0 "J5" H 7300 3767 50  0000 C CNN
+F 1 "MicroD-37Pins" H 7300 3676 50  0000 C CNN
+F 2 "" H 7250 2650 50  0001 C CNN
+F 3 "~" H 7250 2650 50  0001 C CNN
+	1    7250 2650
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

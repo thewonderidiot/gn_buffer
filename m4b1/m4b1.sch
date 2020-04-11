@@ -1,0 +1,1232 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VEE #PWR?
+U 1 1 5E934A00
+P 1675 2500
+F 0 "#PWR?" H 1675 2350 50  0001 C CNN
+F 1 "VEE" H 1692 2673 50  0000 C CNN
+F 2 "" H 1675 2500 50  0001 C CNN
+F 3 "" H 1675 2500 50  0001 C CNN
+	1    1675 2500
+	1    0    0    1   
+$EndComp
+Text Label 800  1850 0    50   ~ 0
+MC76
+Wire Wire Line
+	1050 1850 800  1850
+Text Label 1800 1450 2    50   ~ 0
+MC75
+Wire Wire Line
+	1550 1450 1800 1450
+Wire Wire Line
+	1550 1650 1800 1650
+Text Label 1800 1750 2    50   ~ 0
+MC73
+Wire Wire Line
+	1550 1750 1800 1750
+Text Label 800  850  0    50   ~ 0
+MC72
+Wire Wire Line
+	1050 850  800  850 
+Text Label 1800 750  2    50   ~ 0
+MC71
+Wire Wire Line
+	1550 750  1800 750 
+Text Label 1800 1150 2    50   ~ 0
+MC70
+Wire Wire Line
+	1550 1150 1800 1150
+Text Label 1800 850  2    50   ~ 0
+MC69
+Wire Wire Line
+	1550 850  1800 850 
+Wire Wire Line
+	1050 2350 700  2350
+Text Label 1800 1850 2    50   ~ 0
+IN18L
+Wire Wire Line
+	1550 1850 1800 1850
+Text Label 800  1650 0    50   ~ 0
+IN18H
+Wire Wire Line
+	1050 1650 800  1650
+Text Label 1800 2150 2    50   ~ 0
+IN17L
+Wire Wire Line
+	1550 2150 1800 2150
+Text Label 1800 2050 2    50   ~ 0
+IN17H
+Wire Wire Line
+	1550 2050 1800 2050
+Text Label 800  1350 0    50   ~ 0
+IN16L
+Wire Wire Line
+	1050 1350 800  1350
+Text Label 1800 1350 2    50   ~ 0
+IN16H
+Wire Wire Line
+	1550 1350 1800 1350
+Text Label 800  750  0    50   ~ 0
+IN15L
+Wire Wire Line
+	1050 750  800  750 
+Text Label 800  650  0    50   ~ 0
+IN15H
+Wire Wire Line
+	1050 650  800  650 
+$Comp
+L gn_buffer:MicroD-37Pins J?
+U 1 1 5E934A26
+P 1250 1550
+F 0 "J?" H 1300 2667 50  0000 C CNN
+F 1 "MicroD-37Pins" H 1300 2576 50  0000 C CNN
+F 2 "" H 1250 1550 50  0001 C CNN
+F 3 "~" H 1250 1550 50  0001 C CNN
+	1    1250 1550
+	1    0    0    1   
+$EndComp
+NoConn ~ 1050 2150
+NoConn ~ 1050 2050
+NoConn ~ 1050 1950
+NoConn ~ 1050 1750
+NoConn ~ 1050 1550
+NoConn ~ 1550 1950
+$Comp
+L power:VCC #PWR?
+U 1 1 5E934A32
+P 825 2625
+F 0 "#PWR?" H 825 2475 50  0001 C CNN
+F 1 "VCC" H 842 2798 50  0000 C CNN
+F 2 "" H 825 2625 50  0001 C CNN
+F 3 "" H 825 2625 50  0001 C CNN
+	1    825  2625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1100 650  1150
+Wire Wire Line
+	650  1150 1050 1150
+Wire Wire Line
+	1550 2450 1675 2450
+Text Label 800  1450 0    50   ~ 0
+CLK
+Wire Wire Line
+	1050 1450 800  1450
+$Comp
+L gn_buffer:VBB #PWR?
+U 1 1 5E934A3D
+P 650 1100
+F 0 "#PWR?" H 650 950 50  0001 C CNN
+F 1 "VBB" H 667 1273 50  0000 C CNN
+F 2 "" H 650 1100 50  0001 C CNN
+F 3 "" H 650 1100 50  0001 C CNN
+	1    650  1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 2450 1675 2500
+Wire Wire Line
+	825  2650 825  2625
+Wire Wire Line
+	825  2650 950  2650
+Wire Wire Line
+	1550 1550 1875 1550
+Text Label 1875 1550 2    50   ~ 0
+B14SET
+Wire Wire Line
+	1550 2250 1900 2250
+Text Label 1900 2250 2    50   ~ 0
+B15SET
+Wire Wire Line
+	1550 2350 1900 2350
+Text Label 1900 2350 2    50   ~ 0
+B16SET
+Wire Wire Line
+	1550 950  1850 950 
+Text Label 1850 950  2    50   ~ 0
+B13SET
+Text Label 700  2250 0    50   ~ 0
+BUF16_n
+Wire Wire Line
+	1050 2250 700  2250
+Text Label 1800 1650 2    50   ~ 0
+MC74
+Wire Wire Line
+	1550 1250 1850 1250
+Text Label 1850 1250 2    50   ~ 0
+BUF12
+Wire Wire Line
+	1550 1050 1900 1050
+Text Label 1900 1050 2    50   ~ 0
+BUF12_n
+Text Label 800  950  0    50   ~ 0
+MC41
+Wire Wire Line
+	1050 950  800  950 
+Text Label 800  1050 0    50   ~ 0
+MC39
+Wire Wire Line
+	800  1050 1050 1050
+Wire Wire Line
+	800  1250 1050 1250
+Text Label 800  1250 0    50   ~ 0
+MC42
+Wire Wire Line
+	950  2650 950  2450
+Wire Wire Line
+	950  2450 1050 2450
+Text Label 700  2350 0    50   ~ 0
+BUF16
+NoConn ~ 1200 4000
+NoConn ~ 1300 4000
+NoConn ~ 950  3750
+NoConn ~ 950  3650
+$Comp
+L gn_buffer:MC306 U1
+U 1 1 5EF741E7
+P 1350 3750
+F 0 "U1" H 1300 3800 50  0000 C CNN
+F 1 "MC306" H 1300 3700 50  0000 C CNN
+F 2 "" H 1350 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 1350 3750 50  0001 C CNN
+	1    1350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5EF78ECB
+P 800 3650
+F 0 "R1" H 750 3700 50  0000 R CNN
+F 1 "100" H 750 3600 50  0000 R CNN
+F 2 "" V 840 3640 50  0001 C CNN
+F 3 "~" H 800 3650 50  0001 C CNN
+	1    800  3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  3800 800  3850
+Wire Wire Line
+	800  3850 950  3850
+Wire Wire Line
+	800  3500 800  3450
+Wire Wire Line
+	800  3450 1250 3450
+Wire Wire Line
+	1250 3450 1250 3500
+Wire Wire Line
+	800  3450 500  3450
+Connection ~ 800  3450
+Wire Wire Line
+	800  3850 500  3850
+Connection ~ 800  3850
+Text Label 500  3450 0    50   ~ 0
+MC72
+Text Label 500  3850 0    50   ~ 0
+MC71
+NoConn ~ 4250 4650
+NoConn ~ 4350 4650
+NoConn ~ 4000 4400
+NoConn ~ 4000 4300
+$Comp
+L gn_buffer:MC306 U5
+U 1 1 5EF7EAB9
+P 4400 4400
+F 0 "U5" H 4350 4450 50  0000 C CNN
+F 1 "MC306" H 4350 4350 50  0000 C CNN
+F 2 "" H 4400 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 4400 4400 50  0001 C CNN
+	1    4400 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5EF7EAC3
+P 3850 4300
+F 0 "R2" H 3800 4350 50  0000 R CNN
+F 1 "100" H 3800 4250 50  0000 R CNN
+F 2 "" V 3890 4290 50  0001 C CNN
+F 3 "~" H 3850 4300 50  0001 C CNN
+	1    3850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4450 3850 4500
+Wire Wire Line
+	3850 4500 4000 4500
+Wire Wire Line
+	3850 4150 3850 4100
+Wire Wire Line
+	3850 4100 4300 4100
+Wire Wire Line
+	4300 4100 4300 4150
+Wire Wire Line
+	3850 4100 3550 4100
+Connection ~ 3850 4100
+Wire Wire Line
+	3850 4500 3550 4500
+Connection ~ 3850 4500
+Text Label 3550 4100 0    50   ~ 0
+MC70
+Text Label 3550 4500 0    50   ~ 0
+MC69
+NoConn ~ 4450 3550
+NoConn ~ 4550 3550
+NoConn ~ 4200 3300
+NoConn ~ 4200 3200
+$Comp
+L gn_buffer:MC306 U6
+U 1 1 5EF82B7B
+P 4600 3300
+F 0 "U6" H 4550 3350 50  0000 C CNN
+F 1 "MC306" H 4550 3250 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5EF82B85
+P 4050 3200
+F 0 "R3" H 4000 3250 50  0000 R CNN
+F 1 "100" H 4000 3150 50  0000 R CNN
+F 2 "" V 4090 3190 50  0001 C CNN
+F 3 "~" H 4050 3200 50  0001 C CNN
+	1    4050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 3350 4050 3400
+Wire Wire Line
+	4050 3400 4200 3400
+Wire Wire Line
+	4050 3050 4050 3000
+Wire Wire Line
+	4050 3000 4500 3000
+Wire Wire Line
+	4500 3000 4500 3050
+Wire Wire Line
+	4050 3000 3750 3000
+Connection ~ 4050 3000
+Wire Wire Line
+	4050 3400 3750 3400
+Connection ~ 4050 3400
+Text Label 3750 3000 0    50   ~ 0
+IN15L
+Text Label 3750 3400 0    50   ~ 0
+IN15H
+NoConn ~ 5750 3550
+NoConn ~ 5850 3550
+NoConn ~ 5500 3300
+NoConn ~ 5500 3200
+$Comp
+L gn_buffer:MC306 U11
+U 1 1 5EF95560
+P 5900 3300
+F 0 "U11" H 5850 3350 50  0000 C CNN
+F 1 "MC306" H 5850 3250 50  0000 C CNN
+F 2 "" H 5900 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 5900 3300 50  0001 C CNN
+	1    5900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5EF9556A
+P 5350 3200
+F 0 "R4" H 5300 3250 50  0000 R CNN
+F 1 "100" H 5300 3150 50  0000 R CNN
+F 2 "" V 5390 3190 50  0001 C CNN
+F 3 "~" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3350 5350 3400
+Wire Wire Line
+	5350 3400 5500 3400
+Wire Wire Line
+	5350 3050 5350 3000
+Wire Wire Line
+	5350 3000 5800 3000
+Wire Wire Line
+	5800 3000 5800 3050
+Wire Wire Line
+	5350 3000 5050 3000
+Connection ~ 5350 3000
+Wire Wire Line
+	5350 3400 5050 3400
+Connection ~ 5350 3400
+Text Label 5050 3000 0    50   ~ 0
+IN16L
+Text Label 5050 3400 0    50   ~ 0
+IN16H
+NoConn ~ 7050 3550
+NoConn ~ 7150 3550
+NoConn ~ 6800 3300
+NoConn ~ 6800 3200
+$Comp
+L gn_buffer:MC306 U16
+U 1 1 5EF982E6
+P 7200 3300
+F 0 "U16" H 7150 3350 50  0000 C CNN
+F 1 "MC306" H 7150 3250 50  0000 C CNN
+F 2 "" H 7200 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 7200 3300 50  0001 C CNN
+	1    7200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5EF982F0
+P 6650 3200
+F 0 "R5" H 6600 3250 50  0000 R CNN
+F 1 "100" H 6600 3150 50  0000 R CNN
+F 2 "" V 6690 3190 50  0001 C CNN
+F 3 "~" H 6650 3200 50  0001 C CNN
+	1    6650 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3350 6650 3400
+Wire Wire Line
+	6650 3400 6800 3400
+Wire Wire Line
+	6650 3050 6650 3000
+Wire Wire Line
+	6650 3000 7100 3000
+Wire Wire Line
+	7100 3000 7100 3050
+Wire Wire Line
+	6650 3000 6350 3000
+Connection ~ 6650 3000
+Wire Wire Line
+	6650 3400 6350 3400
+Connection ~ 6650 3400
+Text Label 6350 3000 0    50   ~ 0
+IN17L
+Text Label 6350 3400 0    50   ~ 0
+IN17H
+NoConn ~ 8350 3550
+NoConn ~ 8450 3550
+NoConn ~ 8100 3300
+NoConn ~ 8100 3200
+$Comp
+L gn_buffer:MC306 U20
+U 1 1 5EF9CFC0
+P 8500 3300
+F 0 "U20" H 8450 3350 50  0000 C CNN
+F 1 "MC306" H 8450 3250 50  0000 C CNN
+F 2 "" H 8500 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 8500 3300 50  0001 C CNN
+	1    8500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5EF9CFCA
+P 7950 3200
+F 0 "R6" H 7900 3250 50  0000 R CNN
+F 1 "100" H 7900 3150 50  0000 R CNN
+F 2 "" V 7990 3190 50  0001 C CNN
+F 3 "~" H 7950 3200 50  0001 C CNN
+	1    7950 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3350 7950 3400
+Wire Wire Line
+	7950 3400 8100 3400
+Wire Wire Line
+	7950 3050 7950 3000
+Wire Wire Line
+	7950 3000 8400 3000
+Wire Wire Line
+	8400 3000 8400 3050
+Wire Wire Line
+	7950 3000 7650 3000
+Connection ~ 7950 3000
+Wire Wire Line
+	7950 3400 7650 3400
+Connection ~ 7950 3400
+Text Label 7650 3000 0    50   ~ 0
+IN18L
+Text Label 7650 3400 0    50   ~ 0
+IN18H
+NoConn ~ 1200 5400
+NoConn ~ 1300 5400
+NoConn ~ 950  5150
+NoConn ~ 950  5050
+$Comp
+L gn_buffer:MC306 U25
+U 1 1 5EFA05F3
+P 1350 5150
+F 0 "U25" H 1300 5200 50  0000 C CNN
+F 1 "MC306" H 1300 5100 50  0000 C CNN
+F 2 "" H 1350 5150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 1350 5150 50  0001 C CNN
+	1    1350 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5EFA05FD
+P 800 5050
+F 0 "R7" H 750 5100 50  0000 R CNN
+F 1 "100" H 750 5000 50  0000 R CNN
+F 2 "" V 840 5040 50  0001 C CNN
+F 3 "~" H 800 5050 50  0001 C CNN
+	1    800  5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5200 800  5250
+Wire Wire Line
+	800  5250 950  5250
+Wire Wire Line
+	800  4900 800  4850
+Wire Wire Line
+	800  4850 1250 4850
+Wire Wire Line
+	1250 4850 1250 4900
+Wire Wire Line
+	800  4850 500  4850
+Connection ~ 800  4850
+Wire Wire Line
+	800  5250 500  5250
+Connection ~ 800  5250
+Text Label 500  4850 0    50   ~ 0
+MC76
+Text Label 500  5250 0    50   ~ 0
+MC75
+NoConn ~ 1200 6100
+NoConn ~ 1300 6100
+NoConn ~ 950  5850
+NoConn ~ 950  5750
+$Comp
+L gn_buffer:MC306 U26
+U 1 1 5EFA39BA
+P 1350 5850
+F 0 "U26" H 1300 5900 50  0000 C CNN
+F 1 "MC306" H 1300 5800 50  0000 C CNN
+F 2 "" H 1350 5850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 1350 5850 50  0001 C CNN
+	1    1350 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R8
+U 1 1 5EFA39C4
+P 800 5750
+F 0 "R8" H 750 5800 50  0000 R CNN
+F 1 "100" H 750 5700 50  0000 R CNN
+F 2 "" V 840 5740 50  0001 C CNN
+F 3 "~" H 800 5750 50  0001 C CNN
+	1    800  5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  5900 800  5950
+Wire Wire Line
+	800  5950 950  5950
+Wire Wire Line
+	800  5600 800  5550
+Wire Wire Line
+	800  5550 1250 5550
+Wire Wire Line
+	1250 5550 1250 5600
+Wire Wire Line
+	800  5550 500  5550
+Connection ~ 800  5550
+Wire Wire Line
+	800  5950 500  5950
+Connection ~ 800  5950
+Text Label 500  5550 0    50   ~ 0
+MC74
+Text Label 500  5950 0    50   ~ 0
+MC73
+NoConn ~ 4400 3100
+$Comp
+L gn_buffer:MC310 U2
+U 2 1 5EFE2344
+P 6100 4200
+F 0 "U2" H 6050 4250 50  0000 C CNN
+F 1 "MC310" H 6050 4150 50  0000 C CNN
+F 2 "" H 6100 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6100 4200 50  0001 C CNN
+	2    6100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U3
+U 1 1 5F008D77
+P 13700 1250
+F 0 "U3" H 13650 1300 50  0000 C CNN
+F 1 "MC311" H 13650 1200 50  0000 C CNN
+F 2 "" H 13700 1250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 1250 50  0001 C CNN
+	1    13700 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6350 4300
+$Comp
+L gn_buffer:MC311 U3
+U 2 1 5F00D166
+P 13700 1600
+F 0 "U3" H 13650 1650 50  0000 C CNN
+F 1 "MC311" H 13650 1550 50  0000 C CNN
+F 2 "" H 13700 1600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 1600 50  0001 C CNN
+	2    13700 1600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 1700
+NoConn ~ 13950 2050
+$Comp
+L gn_buffer:MC311 U8
+U 1 1 5F021A63
+P 6100 4600
+F 0 "U8" H 6050 4650 50  0000 C CNN
+F 1 "MC311" H 6050 4550 50  0000 C CNN
+F 2 "" H 6100 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6100 4600 50  0001 C CNN
+	1    6100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U8
+U 2 1 5F021A6D
+P 13700 2650
+F 0 "U8" H 13650 2700 50  0000 C CNN
+F 1 "MC311" H 13650 2600 50  0000 C CNN
+F 2 "" H 13700 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 2650 50  0001 C CNN
+	2    13700 2650
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 2750
+$Comp
+L gn_buffer:MC311 U12
+U 1 1 5F026E3C
+P 13700 3000
+F 0 "U12" H 13650 3050 50  0000 C CNN
+F 1 "MC311" H 13650 2950 50  0000 C CNN
+F 2 "" H 13700 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 3000 50  0001 C CNN
+	1    13700 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 3450
+$Comp
+L gn_buffer:MC311 U17
+U 1 1 5F02CFB2
+P 13700 3700
+F 0 "U17" H 13650 3750 50  0000 C CNN
+F 1 "MC311" H 13650 3650 50  0000 C CNN
+F 2 "" H 13700 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 3700 50  0001 C CNN
+	1    13700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U17
+U 2 1 5F02CFBC
+P 13700 4050
+F 0 "U17" H 13650 4100 50  0000 C CNN
+F 1 "MC311" H 13650 4000 50  0000 C CNN
+F 2 "" H 13700 4050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 4050 50  0001 C CNN
+	2    13700 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 4150
+$Comp
+L gn_buffer:MC311 U21
+U 1 1 5F03243D
+P 13700 4400
+F 0 "U21" H 13650 4450 50  0000 C CNN
+F 1 "MC311" H 13650 4350 50  0000 C CNN
+F 2 "" H 13700 4400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 4400 50  0001 C CNN
+	1    13700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U21
+U 2 1 5F032447
+P 13700 4750
+F 0 "U21" H 13650 4800 50  0000 C CNN
+F 1 "MC311" H 13650 4700 50  0000 C CNN
+F 2 "" H 13700 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 4750 50  0001 C CNN
+	2    13700 4750
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 4850
+$Comp
+L gn_buffer:MC311 U27
+U 1 1 5F0396BB
+P 13700 5100
+F 0 "U27" H 13650 5150 50  0000 C CNN
+F 1 "MC311" H 13650 5050 50  0000 C CNN
+F 2 "" H 13700 5100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 5100 50  0001 C CNN
+	1    13700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U27
+U 2 1 5F0396C5
+P 13700 5450
+F 0 "U27" H 13650 5500 50  0000 C CNN
+F 1 "MC311" H 13650 5400 50  0000 C CNN
+F 2 "" H 13700 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 5450 50  0001 C CNN
+	2    13700 5450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 5550
+$Comp
+L gn_buffer:MC311 U28
+U 1 1 5F041ABC
+P 13700 5800
+F 0 "U28" H 13650 5850 50  0000 C CNN
+F 1 "MC311" H 13650 5750 50  0000 C CNN
+F 2 "" H 13700 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 5800 50  0001 C CNN
+	1    13700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:MC311 U28
+U 2 1 5F041AC6
+P 13700 6150
+F 0 "U28" H 13650 6200 50  0000 C CNN
+F 1 "MC311" H 13650 6100 50  0000 C CNN
+F 2 "" H 13700 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 6150 50  0001 C CNN
+	2    13700 6150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 13950 6250
+Wire Wire Line
+	6400 4200 6450 4200
+Text Label 14450 900  2    50   ~ 0
+MC41
+Wire Wire Line
+	6400 4600 6450 4600
+Wire Wire Line
+	14050 900  14450 900 
+$Comp
+L gn_buffer:MC311 U12
+U 2 1 5F026E46
+P 13700 3350
+F 0 "U12" H 13650 3400 50  0000 C CNN
+F 1 "MC311" H 13650 3300 50  0000 C CNN
+F 2 "" H 13700 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 3350 50  0001 C CNN
+	2    13700 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 3000 14050 3000
+Wire Wire Line
+	14000 3700 14050 3700
+Wire Wire Line
+	14050 3700 14050 3350
+Connection ~ 14050 3000
+Wire Wire Line
+	14000 4400 14050 4400
+Wire Wire Line
+	14050 4400 14050 4050
+Connection ~ 14050 3700
+Wire Wire Line
+	14000 1250 14050 1250
+Connection ~ 14050 1250
+Wire Wire Line
+	14050 1250 14050 900 
+Wire Wire Line
+	14000 1600 14050 1600
+Connection ~ 14050 1600
+Wire Wire Line
+	14050 1600 14050 1250
+Wire Wire Line
+	14000 1950 14050 1950
+$Comp
+L gn_buffer:MC310 U7
+U 2 1 5F01DE7F
+P 13700 1950
+F 0 "U7" H 13650 2000 50  0000 C CNN
+F 1 "MC310" H 13650 1900 50  0000 C CNN
+F 2 "" H 13700 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 13700 1950 50  0001 C CNN
+	2    13700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14050 1600 14050 1950
+Connection ~ 14050 1950
+Wire Wire Line
+	14000 2650 14050 2650
+Connection ~ 14050 2650
+Wire Wire Line
+	14050 2650 14050 3000
+Wire Wire Line
+	14000 3350 14050 3350
+Connection ~ 14050 3350
+Wire Wire Line
+	14050 3350 14050 3000
+Wire Wire Line
+	14000 4050 14050 4050
+Connection ~ 14050 4050
+Wire Wire Line
+	14050 4050 14050 3700
+Wire Wire Line
+	14000 4750 14050 4750
+Wire Wire Line
+	14050 4750 14050 4400
+Connection ~ 14050 4400
+Wire Wire Line
+	14000 5100 14050 5100
+Wire Wire Line
+	14050 5100 14050 4750
+Connection ~ 14050 4750
+Wire Wire Line
+	14050 5100 14050 5450
+Wire Wire Line
+	14050 5450 14000 5450
+Connection ~ 14050 5100
+Wire Wire Line
+	14000 5800 14050 5800
+Wire Wire Line
+	14050 5800 14050 5450
+Connection ~ 14050 5450
+Wire Wire Line
+	14000 6150 14050 6150
+Wire Wire Line
+	14050 6150 14050 5800
+Connection ~ 14050 5800
+$Comp
+L gn_buffer:MC310 U2
+U 1 1 5EFCD82C
+P 5350 4100
+F 0 "U2" H 5300 4050 50  0000 C CNN
+F 1 "MC310" H 5300 4150 50  0000 C CNN
+F 2 "" H 5350 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5650 4100 5700 4100
+Wire Wire Line
+	13300 1150 12450 1150
+Wire Wire Line
+	12450 1150 12450 900 
+Wire Wire Line
+	12450 900  12550 900 
+$Comp
+L gn_buffer:MC310 U7
+U 1 1 5F203F4C
+P 12900 2050
+F 0 "U7" H 12850 2100 50  0000 C CNN
+F 1 "MC310" H 12850 2000 50  0000 C CNN
+F 2 "" H 12900 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 12900 2050 50  0001 C CNN
+	1    12900 2050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12500 2150
+Wire Wire Line
+	13200 2050 13300 2050
+$Comp
+L gn_buffer:MC308 U10
+U 1 1 5F250865
+P 5750 1700
+F 0 "U10" H 5750 1700 50  0000 C CNN
+F 1 "MC308" H 5750 1600 50  0000 C CNN
+F 2 "" H 5750 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 5750 1750 50  0001 C CNN
+	1    5750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2150 5800 2200
+Wire Wire Line
+	5800 2200 4550 2200
+Text Label 4550 2200 0    50   ~ 0
+MC39
+Wire Wire Line
+	5400 1950 5350 1950
+Wire Wire Line
+	5350 1950 5350 1600
+Wire Wire Line
+	5350 1600 5400 1600
+$Comp
+L gn_buffer:MC306 U14
+U 1 1 5F265856
+P 4500 1300
+F 0 "U14" H 4450 1350 50  0000 C CNN
+F 1 "MC306" H 4450 1250 50  0000 C CNN
+F 2 "" H 4500 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 4500 1300 50  0001 C CNN
+	1    4500 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:VBB #PWR?
+U 1 1 5F26D0E0
+P 4400 1050
+F 0 "#PWR?" H 4400 900 50  0001 C CNN
+F 1 "VBB" V 4418 1177 50  0000 L CNN
+F 2 "" H 4400 1050 50  0001 C CNN
+F 3 "" H 4400 1050 50  0001 C CNN
+	1    4400 1050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 4450 1550
+NoConn ~ 4350 1550
+NoConn ~ 4100 1400
+NoConn ~ 4100 1200
+Text Label 3850 1300 0    50   ~ 0
+CLK
+Wire Wire Line
+	4100 1300 3850 1300
+NoConn ~ 4750 1200
+Wire Wire Line
+	4750 1400 5350 1400
+Wire Wire Line
+	5350 1400 5350 1600
+Connection ~ 5350 1600
+Text Label 4850 1700 0    50   ~ 0
+BUF12
+Wire Wire Line
+	4850 1700 5400 1700
+Wire Wire Line
+	5400 1850 4850 1850
+Text Label 4850 1850 0    50   ~ 0
+BUF12_n
+$Comp
+L gn_buffer:MC308 U15
+U 1 1 5F2ADAD0
+P 7050 1700
+F 0 "U15" H 7050 1700 50  0000 C CNN
+F 1 "MC308" H 7050 1600 50  0000 C CNN
+F 2 "" H 7050 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 7050 1750 50  0001 C CNN
+	1    7050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1400 6650 1400
+Wire Wire Line
+	6650 1400 6650 1600
+Wire Wire Line
+	6650 1600 6700 1600
+Connection ~ 5350 1400
+Wire Wire Line
+	6650 1600 6650 1950
+Wire Wire Line
+	6650 1950 6700 1950
+Connection ~ 6650 1600
+Wire Wire Line
+	6100 1900 6150 1900
+Wire Wire Line
+	6150 1900 6150 1850
+Wire Wire Line
+	6150 1850 6700 1850
+Wire Wire Line
+	6100 1600 6150 1600
+Wire Wire Line
+	6150 1600 6150 1700
+Wire Wire Line
+	6150 1700 6700 1700
+Wire Wire Line
+	5800 2200 7100 2200
+Wire Wire Line
+	7100 2200 7100 2150
+Connection ~ 5800 2200
+$Comp
+L gn_buffer:MC308 U19
+U 1 1 5F2DFEDF
+P 8350 1700
+F 0 "U19" H 8350 1700 50  0000 C CNN
+F 1 "MC308" H 8350 1600 50  0000 C CNN
+F 2 "" H 8350 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 8350 1750 50  0001 C CNN
+	1    8350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 1400 7950 1600
+Wire Wire Line
+	7950 1600 8000 1600
+Wire Wire Line
+	7950 1600 7950 1950
+Wire Wire Line
+	7950 1950 8000 1950
+Connection ~ 7950 1600
+Wire Wire Line
+	7400 1900 7450 1900
+Wire Wire Line
+	7450 1900 7450 1850
+Wire Wire Line
+	7450 1850 8000 1850
+Wire Wire Line
+	7400 1600 7450 1600
+Wire Wire Line
+	7450 1600 7450 1700
+Wire Wire Line
+	7450 1700 8000 1700
+Wire Wire Line
+	6650 1400 7950 1400
+Connection ~ 6650 1400
+Wire Wire Line
+	7100 2200 8400 2200
+Wire Wire Line
+	8400 2200 8400 2150
+Connection ~ 7100 2200
+$Comp
+L gn_buffer:MC308 U24
+U 1 1 5F2F86B9
+P 9650 1700
+F 0 "U24" H 9650 1700 50  0000 C CNN
+F 1 "MC308" H 9650 1600 50  0000 C CNN
+F 2 "" H 9650 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS107" H 9650 1750 50  0001 C CNN
+	1    9650 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1400 9250 1600
+Wire Wire Line
+	9250 1600 9300 1600
+Wire Wire Line
+	9250 1600 9250 1950
+Wire Wire Line
+	9250 1950 9300 1950
+Connection ~ 9250 1600
+Wire Wire Line
+	8700 1900 8750 1900
+Wire Wire Line
+	8750 1900 8750 1850
+Wire Wire Line
+	8750 1850 9300 1850
+Wire Wire Line
+	8700 1600 8750 1600
+Wire Wire Line
+	8750 1600 8750 1700
+Wire Wire Line
+	8750 1700 9300 1700
+Wire Wire Line
+	7950 1400 9250 1400
+Wire Wire Line
+	8400 2200 9700 2200
+Wire Wire Line
+	9700 2200 9700 2150
+Connection ~ 7950 1400
+Connection ~ 8400 2200
+Wire Wire Line
+	10000 1900 10350 1900
+Text Label 10350 1900 2    50   ~ 0
+BUF16_n
+Wire Wire Line
+	10000 1600 10350 1600
+Text Label 10350 1600 2    50   ~ 0
+BUF16
+Text Notes 5600 1300 0    50   ~ 0
+Bit 13
+Text Notes 6900 1300 0    50   ~ 0
+Bit 14
+Text Notes 8200 1300 0    50   ~ 0
+Bit 15
+Text Notes 9500 1300 0    50   ~ 0
+Bit 16
+$Comp
+L gn_buffer:MC309 U9
+U 1 1 5F36B8F5
+P 5350 2600
+F 0 "U9" H 5300 2650 50  0000 C CNN
+F 1 "MC309" H 5300 2550 50  0000 C CNN
+F 2 "" H 5350 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 5350 2600 50  0001 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2600 5700 2600
+Wire Wire Line
+	5700 2600 5700 2150
+Wire Wire Line
+	5700 2600 6050 2600
+Connection ~ 5700 2600
+Text Label 6050 2600 2    50   ~ 0
+B13SET
+Wire Wire Line
+	12350 1950 12500 1950
+Wire Wire Line
+	12350 1950 12350 2900
+Wire Wire Line
+	12350 2900 13300 2900
+Text Label 4550 2350 0    50   ~ 0
+MC42
+Wire Wire Line
+	4550 2350 4900 2350
+Wire Wire Line
+	4900 2350 4900 2500
+Wire Wire Line
+	4900 2500 4950 2500
+$Comp
+L gn_buffer:MC309 U9
+U 2 1 5F46AB1A
+P 6650 2600
+F 0 "U9" H 6600 2650 50  0000 C CNN
+F 1 "MC309" H 6600 2550 50  0000 C CNN
+F 2 "" H 6650 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6650 2600 50  0001 C CNN
+	2    6650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 2600 7000 2600
+Wire Wire Line
+	7000 2600 7000 2150
+Wire Wire Line
+	7000 2600 7350 2600
+Connection ~ 7000 2600
+Text Label 7350 2600 2    50   ~ 0
+B14SET
+Wire Wire Line
+	6200 2500 6250 2500
+Wire Wire Line
+	4900 2350 6200 2350
+Wire Wire Line
+	6200 2350 6200 2500
+Connection ~ 4900 2350
+Wire Wire Line
+	4850 3200 4900 3200
+Wire Wire Line
+	4900 3200 4900 2700
+Wire Wire Line
+	4900 2700 4950 2700
+Wire Wire Line
+	6150 3200 6200 3200
+Wire Wire Line
+	6200 3200 6200 2700
+Wire Wire Line
+	6200 2700 6250 2700
+$Comp
+L gn_buffer:MC309 U23
+U 2 1 5F4F6FE7
+P 7950 2600
+F 0 "U23" H 7900 2650 50  0000 C CNN
+F 1 "MC309" H 7900 2550 50  0000 C CNN
+F 2 "" H 7950 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 7950 2600 50  0001 C CNN
+	2    7950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2600 8300 2600
+Wire Wire Line
+	8300 2600 8300 2150
+Wire Wire Line
+	8300 2600 8650 2600
+Connection ~ 8300 2600
+Text Label 8650 2600 2    50   ~ 0
+B15SET
+Wire Wire Line
+	7500 2500 7550 2500
+Wire Wire Line
+	6200 2350 7500 2350
+Wire Wire Line
+	7500 2350 7500 2500
+Wire Wire Line
+	7500 3200 7500 2700
+Wire Wire Line
+	7500 2700 7550 2700
+Connection ~ 6200 2350
+Wire Wire Line
+	7450 3200 7500 3200
+$Comp
+L gn_buffer:MC309 U23
+U 1 1 5F54BB19
+P 9250 2600
+F 0 "U23" H 9200 2550 50  0000 C CNN
+F 1 "MC309" H 9200 2650 50  0000 C CNN
+F 2 "" H 9250 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 9250 2600 50  0001 C CNN
+	1    9250 2600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9550 2600 9600 2600
+Wire Wire Line
+	9600 2600 9600 2150
+Wire Wire Line
+	9600 2600 9950 2600
+Connection ~ 9600 2600
+Text Label 9950 2600 2    50   ~ 0
+B16SET
+Wire Wire Line
+	8800 2500 8850 2500
+Wire Wire Line
+	7500 2350 8800 2350
+Wire Wire Line
+	8800 2350 8800 2500
+Wire Wire Line
+	8800 3200 8800 2700
+Wire Wire Line
+	8800 2700 8850 2700
+Connection ~ 7500 2350
+Wire Wire Line
+	8800 3200 8750 3200
+Wire Wire Line
+	4650 4300 5700 4300
+Wire Wire Line
+	14050 1950 14050 2650
+Wire Wire Line
+	4650 4500 5700 4500
+Wire Wire Line
+	6450 4200 6450 4600
+Text Label 6250 1700 0    50   ~ 0
+BUF13
+Text Label 6250 1850 0    50   ~ 0
+BUF13_n
+Text Label 7550 1700 0    50   ~ 0
+BUF14
+Text Label 7550 1850 0    50   ~ 0
+BUF14_n
+Text Label 8850 1700 0    50   ~ 0
+BUF15
+Text Label 8850 1850 0    50   ~ 0
+BUF15_n
+Wire Wire Line
+	5700 4700 5350 4700
+Text Label 5350 4700 0    50   ~ 0
+BUF13_n
+NoConn ~ 4950 4200
+NoConn ~ 4850 3400
+NoConn ~ 6150 3400
+NoConn ~ 7450 3400
+NoConn ~ 8750 3400
+Wire Wire Line
+	4900 3200 4900 4000
+Wire Wire Line
+	4900 4000 4950 4000
+Connection ~ 4900 3200
+$EndSCHEMATC

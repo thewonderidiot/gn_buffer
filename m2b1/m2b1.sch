@@ -142,73 +142,73 @@ Wire Wire Line
 Wire Wire Line
 	1850 5500 1550 5500
 Text Label 1550 5500 0    50   ~ 0
-BITJ4P2
+B01SET
 Wire Wire Line
 	2350 5600 2700 5600
 Text Label 2700 5600 2    50   ~ 0
-BITJ4P20
+B04SET
 Wire Wire Line
 	2350 5500 2700 5500
 Text Label 2700 5500 2    50   ~ 0
-BITJ4P21
+B03SET
 Wire Wire Line
 	1850 5400 1550 5400
 Text Label 1550 5400 0    50   ~ 0
-BITJ4P3
+B07SET
 Wire Wire Line
 	2350 5400 2700 5400
 Text Label 2700 5400 2    50   ~ 0
-BITJ4P22
+B06SET
 Wire Wire Line
 	2350 5300 2700 5300
 Text Label 2700 5300 2    50   ~ 0
-BITJ4P23
+B05SET
 Wire Wire Line
 	2350 5200 2700 5200
 Text Label 2700 5200 2    50   ~ 0
-BITJ4P24
+B08SET
 Wire Wire Line
 	1825 3050 1525 3050
 Text Label 1525 3050 0    50   ~ 0
-BITJ3P2
+B10SET
 Wire Wire Line
 	1825 3150 1525 3150
 Text Label 1525 3150 0    50   ~ 0
-BITJ3P1
+B12SET
 Wire Wire Line
 	1825 2950 1525 2950
 Text Label 1525 2950 0    50   ~ 0
-BITJ3P3
+B11SET
 Wire Wire Line
 	1825 2750 1525 2750
 Text Label 1525 2750 0    50   ~ 0
-BITJ3P5
+B14SET
 Wire Wire Line
 	2325 3150 2675 3150
 Text Label 2675 3150 2    50   ~ 0
-BITJ3P20
+B15SET
 Wire Wire Line
 	2325 3050 2675 3050
 Text Label 2675 3050 2    50   ~ 0
-BITJ3P21
+B09SET
 Wire Wire Line
 	2325 2950 2675 2950
 Text Label 2675 2950 2    50   ~ 0
-BITJ3P22
+B16SET
 Wire Wire Line
 	2325 2850 2675 2850
 Text Label 2675 2850 2    50   ~ 0
-BITJ3P23
+B13SET
 Wire Wire Line
 	1850 5600 1550 5600
 Text Label 1550 5600 0    50   ~ 0
-NONZERO
+BUFSET
 Text Label 2725 1650 2    50   ~ 0
-B18_SHFT
+BUF16
 Wire Wire Line
 	2325 1650 2725 1650
 Text Label 2775 2550 2    50   ~ 0
-B18_SHFT_n
+BUF16_n
 Wire Wire Line
 	2325 2550 2775 2550
 $Comp
@@ -229,7 +229,7 @@ NoConn ~ 4800 3200
 Wire Wire Line
 	4800 3400 5200 3400
 Text Label 5200 3400 2    50   ~ 0
-NONZERO
+BUFSET
 $Comp
 L gn_buffer:MC305 U4
 U 1 1 5E82FD33
@@ -294,63 +294,63 @@ Connection ~ 4500 4350
 Wire Wire Line
 	3700 4950 3300 4950
 Text Label 3300 4950 0    50   ~ 0
-BITJ4P21
+B03SET
 Wire Wire Line
 	3700 4850 3300 4850
 Text Label 3300 4850 0    50   ~ 0
-BITJ4P2
+B01SET
 Wire Wire Line
 	3700 4750 3300 4750
 Text Label 3300 4750 0    50   ~ 0
-BITJ4P20
+B04SET
 Wire Wire Line
 	3700 4650 3300 4650
 Text Label 3300 4650 0    50   ~ 0
-BITJ4P3
+B07SET
 Wire Wire Line
 	3700 4550 3300 4550
 Text Label 3300 4550 0    50   ~ 0
-BITJ4P22
+B06SET
 Wire Wire Line
 	3700 4450 3300 4450
 Text Label 3300 4450 0    50   ~ 0
-BITJ4P23
+B05SET
 Wire Wire Line
 	3700 4350 3300 4350
 Text Label 3300 4350 0    50   ~ 0
-BITJ4P24
+B08SET
 Wire Wire Line
 	3700 4250 3300 4250
 Text Label 3300 4250 0    50   ~ 0
-BITJ3P1
+B12SET
 Wire Wire Line
 	3700 4150 3300 4150
 Text Label 3300 4150 0    50   ~ 0
-BITJ3P21
+B09SET
 Wire Wire Line
 	3700 4050 3300 4050
 Text Label 3300 4050 0    50   ~ 0
-BITJ3P2
+B10SET
 Wire Wire Line
 	3700 3950 3300 3950
 Text Label 3300 3950 0    50   ~ 0
-BITJ3P22
+B16SET
 Wire Wire Line
 	3700 3850 3300 3850
 Text Label 3300 3850 0    50   ~ 0
-BITJ3P20
+B15SET
 Wire Wire Line
 	3700 3750 3300 3750
 Text Label 3300 3750 0    50   ~ 0
-BITJ3P3
+B11SET
 Wire Wire Line
 	3700 3650 3300 3650
 Text Label 3300 3650 0    50   ~ 0
-BITJ3P5
+B14SET
 Wire Wire Line
 	3700 3550 3300 3550
 Text Label 3300 3550 0    50   ~ 0
-BITJ3P23
+B13SET
 Text Notes 4200 2900 2    50   ~ 0
 Buffer Zero Detector
 Text Notes 2400 1000 2    50   ~ 0
@@ -505,7 +505,7 @@ CLK
 Wire Wire Line
 	5500 2650 5050 2650
 Text Label 5050 2650 0    50   ~ 0
-B18_SHFT
+BUF16
 NoConn ~ 5500 2550
 NoConn ~ 5750 2900
 NoConn ~ 5850 2900
@@ -1064,7 +1064,7 @@ CLK
 Wire Wire Line
 	5500 5250 5050 5250
 Text Label 5050 5250 0    50   ~ 0
-B18_SHFT_n
+BUF16_n
 NoConn ~ 5500 5050
 NoConn ~ 5750 5400
 NoConn ~ 5850 5400
