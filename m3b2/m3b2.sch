@@ -1114,7 +1114,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 6400 8350 6400
 Wire Wire Line
-	9050 2100 9050 6400
+	9050 2100 9050 3800
 $Comp
 L Device:R_US R12
 U 1 1 60982B31
@@ -1330,4 +1330,10 @@ Wire Wire Line
 Connection ~ 7550 9100
 Text Label 8450 9100 2    50   ~ 0
 MC42
+Wire Wire Line
+	4550 3800 9050 3800
+Connection ~ 4550 3800
+Connection ~ 9050 3800
+Wire Wire Line
+	9050 3800 9050 6400
 $EndSCHEMATC
