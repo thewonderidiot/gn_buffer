@@ -25,67 +25,67 @@ F 3 "" H 1675 2500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Text Label 800  1850 0    50   ~ 0
-MC76
+C16L
 Wire Wire Line
 	1050 1850 800  1850
 Text Label 1800 1450 2    50   ~ 0
-MC75
+C16H
 Wire Wire Line
 	1550 1450 1800 1450
 Wire Wire Line
 	1550 1650 1800 1650
 Text Label 1800 1750 2    50   ~ 0
-MC73
+C15H
 Wire Wire Line
 	1550 1750 1800 1750
 Text Label 800  850  0    50   ~ 0
-MC72
+C14L
 Wire Wire Line
 	1050 850  800  850 
 Text Label 1800 750  2    50   ~ 0
-MC71
+C14H
 Wire Wire Line
 	1550 750  1800 750 
 Text Label 1800 1150 2    50   ~ 0
-MC70
+C13L
 Wire Wire Line
 	1550 1150 1800 1150
 Text Label 1800 850  2    50   ~ 0
-MC69
+C13H
 Wire Wire Line
 	1550 850  1800 850 
 Wire Wire Line
 	1050 2350 700  2350
 Text Label 1800 1850 2    50   ~ 0
-IN18L
+B16L
 Wire Wire Line
 	1550 1850 1800 1850
 Text Label 800  1650 0    50   ~ 0
-IN18H
+B16H
 Wire Wire Line
 	1050 1650 800  1650
 Text Label 1800 2150 2    50   ~ 0
-IN17L
+B15L
 Wire Wire Line
 	1550 2150 1800 2150
 Text Label 1800 2050 2    50   ~ 0
-IN17H
+B15H
 Wire Wire Line
 	1550 2050 1800 2050
 Text Label 800  1350 0    50   ~ 0
-IN16L
+B14L
 Wire Wire Line
 	1050 1350 800  1350
 Text Label 1800 1350 2    50   ~ 0
-IN16H
+B14H
 Wire Wire Line
 	1550 1350 1800 1350
 Text Label 800  750  0    50   ~ 0
-IN15L
+B13L
 Wire Wire Line
 	1050 750  800  750 
 Text Label 800  650  0    50   ~ 0
-IN15H
+B13H
 Wire Wire Line
 	1050 650  800  650 
 $Comp
@@ -164,7 +164,7 @@ BUF16_n
 Wire Wire Line
 	1050 2250 700  2250
 Text Label 1800 1650 2    50   ~ 0
-MC74
+C15L
 Wire Wire Line
 	1550 1250 1850 1250
 Text Label 1850 1250 2    50   ~ 0
@@ -174,17 +174,17 @@ Wire Wire Line
 Text Label 1900 1050 2    50   ~ 0
 BUF12_n
 Text Label 800  950  0    50   ~ 0
-MC41
+COINC_n
 Wire Wire Line
 	1050 950  800  950 
 Text Label 800  1050 0    50   ~ 0
-MC39
+BUFRST
 Wire Wire Line
 	800  1050 1050 1050
 Wire Wire Line
 	800  1250 1050 1250
 Text Label 800  1250 0    50   ~ 0
-MC42
+LOAD_n
 Wire Wire Line
 	950  2650 950  2450
 Wire Wire Line
@@ -234,9 +234,9 @@ Wire Wire Line
 	3150 6350 2850 6350
 Connection ~ 3150 6350
 Text Label 2850 5950 0    50   ~ 0
-MC72
+C14L
 Text Label 2850 6350 0    50   ~ 0
-MC71
+C14H
 NoConn ~ 1500 4250
 NoConn ~ 1600 4250
 NoConn ~ 1250 4000
@@ -280,9 +280,9 @@ Wire Wire Line
 	1100 4100 800  4100
 Connection ~ 1100 4100
 Text Label 800  3700 0    50   ~ 0
-MC70
+C13L
 Text Label 800  4100 0    50   ~ 0
-MC69
+C13H
 NoConn ~ 3100 3150
 NoConn ~ 3200 3150
 NoConn ~ 2850 2900
@@ -326,9 +326,9 @@ Wire Wire Line
 	2700 3000 2400 3000
 Connection ~ 2700 3000
 Text Label 2400 2600 0    50   ~ 0
-IN15L
+B13L
 Text Label 2400 3000 0    50   ~ 0
-IN15H
+B13H
 NoConn ~ 4400 3150
 NoConn ~ 4500 3150
 NoConn ~ 4150 2900
@@ -372,9 +372,9 @@ Wire Wire Line
 	4000 3000 3700 3000
 Connection ~ 4000 3000
 Text Label 3700 2600 0    50   ~ 0
-IN16L
+B14L
 Text Label 3700 3000 0    50   ~ 0
-IN16H
+B14H
 NoConn ~ 5700 3150
 NoConn ~ 5800 3150
 NoConn ~ 5450 2900
@@ -418,9 +418,9 @@ Wire Wire Line
 	5300 3000 5000 3000
 Connection ~ 5300 3000
 Text Label 5000 2600 0    50   ~ 0
-IN17L
+B15L
 Text Label 5000 3000 0    50   ~ 0
-IN17H
+B15H
 NoConn ~ 7000 3150
 NoConn ~ 7100 3150
 NoConn ~ 6750 2900
@@ -464,9 +464,9 @@ Wire Wire Line
 	6600 3000 6300 3000
 Connection ~ 6600 3000
 Text Label 6300 2600 0    50   ~ 0
-IN18L
+B16L
 Text Label 6300 3000 0    50   ~ 0
-IN18H
+B16H
 NoConn ~ 8450 4250
 NoConn ~ 8550 4250
 NoConn ~ 8200 4000
@@ -510,9 +510,9 @@ Wire Wire Line
 	8050 4100 7750 4100
 Connection ~ 8050 4100
 Text Label 7750 3700 0    50   ~ 0
-MC76
+C16L
 Text Label 7750 4100 0    50   ~ 0
-MC75
+C16H
 NoConn ~ 5200 4250
 NoConn ~ 5300 4250
 NoConn ~ 4950 4000
@@ -556,9 +556,9 @@ Wire Wire Line
 	4800 4100 4500 4100
 Connection ~ 4800 4100
 Text Label 4500 3700 0    50   ~ 0
-MC74
+C15L
 Text Label 4500 4100 0    50   ~ 0
-MC73
+C15H
 NoConn ~ 3050 2700
 $Comp
 L gn_buffer:MC310 U2
@@ -748,7 +748,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 1800 3200 1800
 Text Label 3200 1800 0    50   ~ 0
-MC39
+BUFRST
 Wire Wire Line
 	4050 1550 4000 1550
 Wire Wire Line
@@ -956,7 +956,7 @@ Connection ~ 4350 2200
 Text Label 4700 2200 2    50   ~ 0
 B13SET
 Text Label 3200 1950 0    50   ~ 0
-MC42
+LOAD_n
 Wire Wire Line
 	3200 1950 3550 1950
 Wire Wire Line
@@ -1529,5 +1529,5 @@ Wire Wire Line
 	10700 5650 11050 5650
 Connection ~ 10700 5650
 Text Label 11050 5650 2    50   ~ 0
-MC41
+COINC_n
 $EndSCHEMATC

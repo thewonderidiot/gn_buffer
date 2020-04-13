@@ -5,6 +5,12 @@ D Power symbol creates a global label with name "+23.5V"
 K power-flag
 $ENDCMP
 #
+$CMP Chassis
+D Power symbol creates a global label with name "Earth"
+K power-flag ground gnd
+F ~
+$ENDCMP
+#
 $CMP MC301
 D Five-input OR/NOR gate
 K MECL Nor5 Or5
