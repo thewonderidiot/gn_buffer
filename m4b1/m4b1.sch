@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -13,184 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:VEE #PWR?
-U 1 1 5E934A00
-P 1675 2500
-F 0 "#PWR?" H 1675 2350 50  0001 C CNN
-F 1 "VEE" H 1692 2673 50  0000 C CNN
-F 2 "" H 1675 2500 50  0001 C CNN
-F 3 "" H 1675 2500 50  0001 C CNN
-	1    1675 2500
-	1    0    0    1   
-$EndComp
-Text Label 800  1850 0    50   ~ 0
-C16L
-Wire Wire Line
-	1050 1850 800  1850
-Text Label 1800 1450 2    50   ~ 0
-C16H
-Wire Wire Line
-	1550 1450 1800 1450
-Wire Wire Line
-	1550 1650 1800 1650
-Text Label 1800 1750 2    50   ~ 0
-C15H
-Wire Wire Line
-	1550 1750 1800 1750
-Text Label 800  850  0    50   ~ 0
-C14L
-Wire Wire Line
-	1050 850  800  850 
-Text Label 1800 750  2    50   ~ 0
-C14H
-Wire Wire Line
-	1550 750  1800 750 
-Text Label 1800 1150 2    50   ~ 0
-C13L
-Wire Wire Line
-	1550 1150 1800 1150
-Text Label 1800 850  2    50   ~ 0
-C13H
-Wire Wire Line
-	1550 850  1800 850 
-Wire Wire Line
-	1050 2350 700  2350
-Text Label 1800 1850 2    50   ~ 0
-B16L
-Wire Wire Line
-	1550 1850 1800 1850
-Text Label 800  1650 0    50   ~ 0
-B16H
-Wire Wire Line
-	1050 1650 800  1650
-Text Label 1800 2150 2    50   ~ 0
-B15L
-Wire Wire Line
-	1550 2150 1800 2150
-Text Label 1800 2050 2    50   ~ 0
-B15H
-Wire Wire Line
-	1550 2050 1800 2050
-Text Label 800  1350 0    50   ~ 0
-B14L
-Wire Wire Line
-	1050 1350 800  1350
-Text Label 1800 1350 2    50   ~ 0
-B14H
-Wire Wire Line
-	1550 1350 1800 1350
-Text Label 800  750  0    50   ~ 0
-B13L
-Wire Wire Line
-	1050 750  800  750 
-Text Label 800  650  0    50   ~ 0
-B13H
-Wire Wire Line
-	1050 650  800  650 
-$Comp
-L gn_buffer:MicroD-37Pins J?
-U 1 1 5E934A26
-P 1250 1550
-F 0 "J?" H 1300 2667 50  0000 C CNN
-F 1 "MicroD-37Pins" H 1300 2576 50  0000 C CNN
-F 2 "" H 1250 1550 50  0001 C CNN
-F 3 "~" H 1250 1550 50  0001 C CNN
-	1    1250 1550
-	1    0    0    1   
-$EndComp
-NoConn ~ 1050 2150
-NoConn ~ 1050 2050
-NoConn ~ 1050 1950
-NoConn ~ 1050 1750
-NoConn ~ 1050 1550
-NoConn ~ 1550 1950
-$Comp
-L power:VCC #PWR?
-U 1 1 5E934A32
-P 825 2625
-F 0 "#PWR?" H 825 2475 50  0001 C CNN
-F 1 "VCC" H 842 2798 50  0000 C CNN
-F 2 "" H 825 2625 50  0001 C CNN
-F 3 "" H 825 2625 50  0001 C CNN
-	1    825  2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	650  1100 650  1150
-Wire Wire Line
-	650  1150 1050 1150
-Wire Wire Line
-	1550 2450 1675 2450
-Text Label 800  1450 0    50   ~ 0
-CLK
-Wire Wire Line
-	1050 1450 800  1450
-$Comp
-L gn_buffer:VBB #PWR?
-U 1 1 5E934A3D
-P 650 1100
-F 0 "#PWR?" H 650 950 50  0001 C CNN
-F 1 "VBB" H 667 1273 50  0000 C CNN
-F 2 "" H 650 1100 50  0001 C CNN
-F 3 "" H 650 1100 50  0001 C CNN
-	1    650  1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1675 2450 1675 2500
-Wire Wire Line
-	825  2650 825  2625
-Wire Wire Line
-	825  2650 950  2650
-Wire Wire Line
-	1550 1550 1875 1550
-Text Label 1875 1550 2    50   ~ 0
-B14SET
-Wire Wire Line
-	1550 2250 1900 2250
-Text Label 1900 2250 2    50   ~ 0
-B15SET
-Wire Wire Line
-	1550 2350 1900 2350
-Text Label 1900 2350 2    50   ~ 0
-B16SET
-Wire Wire Line
-	1550 950  1850 950 
-Text Label 1850 950  2    50   ~ 0
-B13SET
-Text Label 700  2250 0    50   ~ 0
-BUF16_n
-Wire Wire Line
-	1050 2250 700  2250
-Text Label 1800 1650 2    50   ~ 0
-C15L
-Wire Wire Line
-	1550 1250 1850 1250
-Text Label 1850 1250 2    50   ~ 0
-BUF12
-Wire Wire Line
-	1550 1050 1900 1050
-Text Label 1900 1050 2    50   ~ 0
-BUF12_n
-Text Label 800  950  0    50   ~ 0
-COINC_n
-Wire Wire Line
-	1050 950  800  950 
-Text Label 800  1050 0    50   ~ 0
-BUFRST
-Wire Wire Line
-	800  1050 1050 1050
-Wire Wire Line
-	800  1250 1050 1250
-Text Label 800  1250 0    50   ~ 0
-LOAD_n
-Wire Wire Line
-	950  2650 950  2450
-Wire Wire Line
-	950  2450 1050 2450
-Text Label 700  2350 0    50   ~ 0
-BUF16
 NoConn ~ 3550 6500
 NoConn ~ 3650 6500
 NoConn ~ 3300 6250
@@ -767,10 +589,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 3150 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gn_buffer:VBB #PWR?
+L gn_buffer:VBB #PWR0101
 U 1 1 5F26D0E0
 P 3050 650
-F 0 "#PWR?" H 3050 500 50  0001 C CNN
+F 0 "#PWR0101" H 3050 500 50  0001 C CNN
 F 1 "VBB" V 3068 777 50  0000 L CNN
 F 2 "" H 3050 650 50  0001 C CNN
 F 3 "" H 3050 650 50  0001 C CNN
@@ -1526,8 +1348,268 @@ Connection ~ 5800 5650
 Wire Wire Line
 	5800 5650 7450 5650
 Wire Wire Line
-	10700 5650 11050 5650
+	10700 5650 11100 5650
 Connection ~ 10700 5650
-Text Label 11050 5650 2    50   ~ 0
+Text Label 11100 5650 2    50   ~ 0
 COINC_n
+Text Label 750  2050 0    50   ~ 0
+C16L
+Wire Wire Line
+	1100 2050 750  2050
+Text Label 1950 1650 2    50   ~ 0
+C16H
+Wire Wire Line
+	1600 1650 1950 1650
+Wire Wire Line
+	1600 1850 1950 1850
+Text Label 1950 1950 2    50   ~ 0
+C15H
+Wire Wire Line
+	1600 1950 1950 1950
+Text Label 750  1050 0    50   ~ 0
+C14L
+Wire Wire Line
+	1100 1050 750  1050
+Text Label 1950 950  2    50   ~ 0
+C14H
+Wire Wire Line
+	1600 950  1950 950 
+Text Label 1950 1350 2    50   ~ 0
+C13L
+Wire Wire Line
+	1600 1350 1950 1350
+Text Label 1950 1050 2    50   ~ 0
+C13H
+Wire Wire Line
+	1600 1050 1950 1050
+Wire Wire Line
+	1100 2550 750  2550
+Text Label 1950 2050 2    50   ~ 0
+B16L
+Wire Wire Line
+	1600 2050 1950 2050
+Text Label 750  1850 0    50   ~ 0
+B16H
+Wire Wire Line
+	1100 1850 750  1850
+Text Label 1950 2350 2    50   ~ 0
+B15L
+Wire Wire Line
+	1600 2350 1950 2350
+Text Label 1950 2250 2    50   ~ 0
+B15H
+Wire Wire Line
+	1600 2250 1950 2250
+Text Label 750  1550 0    50   ~ 0
+B14L
+Wire Wire Line
+	1100 1550 750  1550
+Text Label 1950 1550 2    50   ~ 0
+B14H
+Wire Wire Line
+	1600 1550 1950 1550
+Text Label 750  950  0    50   ~ 0
+B13L
+Wire Wire Line
+	1100 950  750  950 
+Text Label 750  850  0    50   ~ 0
+B13H
+Wire Wire Line
+	1100 850  750  850 
+$Comp
+L gn_buffer:MicroD-37Pins P7
+U 1 1 5E990781
+P 1300 1750
+F 0 "P7" H 1350 2867 50  0000 C CNN
+F 1 "MicroD-37Pins" H 1350 2776 50  0000 C CNN
+F 2 "" H 1300 1750 50  0001 C CNN
+F 3 "~" H 1300 1750 50  0001 C CNN
+	1    1300 1750
+	1    0    0    1   
+$EndComp
+NoConn ~ 1100 2350
+NoConn ~ 1100 2250
+NoConn ~ 1100 2150
+NoConn ~ 1100 1950
+NoConn ~ 1100 1750
+NoConn ~ 1600 2150
+Wire Wire Line
+	650  1300 650  1350
+Wire Wire Line
+	650  1350 1100 1350
+Text Label 750  1650 0    50   ~ 0
+CLK
+Wire Wire Line
+	1100 1650 750  1650
+$Comp
+L gn_buffer:VBB #PWR0102
+U 1 1 5E990791
+P 650 1300
+F 0 "#PWR0102" H 650 1150 50  0001 C CNN
+F 1 "VBB" H 650 1450 50  0000 C CNN
+F 2 "" H 650 1300 50  0001 C CNN
+F 3 "" H 650 1300 50  0001 C CNN
+	1    650  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2450 1950 2450
+Text Label 1950 2450 2    50   ~ 0
+B15SET
+Wire Wire Line
+	1600 2550 1950 2550
+Text Label 1950 2550 2    50   ~ 0
+B16SET
+Wire Wire Line
+	1600 1150 1950 1150
+Text Label 1950 1150 2    50   ~ 0
+B13SET
+Text Label 750  2450 0    50   ~ 0
+BUF16_n
+Wire Wire Line
+	1100 2450 750  2450
+Text Label 1950 1850 2    50   ~ 0
+C15L
+Wire Wire Line
+	1600 1450 1950 1450
+Text Label 1950 1450 2    50   ~ 0
+BUF12
+Wire Wire Line
+	1600 1250 1950 1250
+Text Label 1950 1250 2    50   ~ 0
+BUF12_n
+Text Label 750  1150 0    50   ~ 0
+COINC_n
+Wire Wire Line
+	1100 1150 750  1150
+Text Label 750  1250 0    50   ~ 0
+BUFRST
+Wire Wire Line
+	750  1250 1100 1250
+Wire Wire Line
+	750  1450 1100 1450
+Text Label 750  1450 0    50   ~ 0
+LOAD_n
+Text Label 750  2550 0    50   ~ 0
+BUF16
+Wire Wire Line
+	1600 1750 1950 1750
+Text Label 1950 1750 2    50   ~ 0
+B14SET
+Wire Wire Line
+	1600 2650 1750 2650
+Wire Wire Line
+	1750 2650 1750 2700
+$Comp
+L power:VEE #PWR0103
+U 1 1 5E9907AF
+P 1750 2700
+F 0 "#PWR0103" H 1750 2550 50  0001 C CNN
+F 1 "VEE" H 1750 2850 50  0000 C CNN
+F 2 "" H 1750 2700 50  0001 C CNN
+F 3 "" H 1750 2700 50  0001 C CNN
+	1    1750 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 2650 1100 2650
+$Comp
+L power:VCC #PWR0104
+U 1 1 5E9907B6
+P 850 2800
+F 0 "#PWR0104" H 850 2650 50  0001 C CNN
+F 1 "VCC" H 850 2950 50  0000 C CNN
+F 2 "" H 850 2800 50  0001 C CNN
+F 3 "" H 850 2800 50  0001 C CNN
+	1    850  2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 2650 1000 2850
+Wire Wire Line
+	1000 2850 850  2850
+Wire Wire Line
+	850  2850 850  2800
+Text Notes 950  700  0    50   ~ 0
+Backplane Connections
+Text Notes 5800 650  0    50   ~ 0
+Buffer Register
+Text Notes 5000 3400 0    50   ~ 0
+Coincidence Checking
+$Sheet
+S 1550 6200 600  500 
+U 5ED7CB2D
+F0 "Power" 50
+F1 "power.sch" 50
+$EndSheet
+$Comp
+L Device:C C1
+U 1 1 5EF2FCC5
+P 9700 1950
+F 0 "C1" H 9600 2000 50  0000 R CNN
+F 1 "0.1uF" H 9600 1900 50  0000 R CNN
+F 2 "" H 9738 1800 50  0001 C CNN
+F 3 "~" H 9700 1950 50  0001 C CNN
+	1    9700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5EF3003F
+P 10000 1950
+F 0 "C2" H 10100 2000 50  0000 L CNN
+F 1 "0.1uF" H 10100 1900 50  0000 L CNN
+F 2 "" H 10038 1800 50  0001 C CNN
+F 3 "~" H 10000 1950 50  0001 C CNN
+	1    10000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR?
+U 1 1 5EF4DF77
+P 10000 2150
+F 0 "#PWR?" H 10000 2000 50  0001 C CNN
+F 1 "VEE" H 10018 2323 50  0000 C CNN
+F 2 "" H 10000 2150 50  0001 C CNN
+F 3 "" H 10000 2150 50  0001 C CNN
+	1    10000 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10000 2100 10000 2150
+Wire Wire Line
+	9700 2100 9700 2150
+$Comp
+L gn_buffer:VBB #PWR?
+U 1 1 5EF87AAB
+P 9700 2150
+F 0 "#PWR?" H 9700 2000 50  0001 C CNN
+F 1 "VBB" H 9718 2323 50  0000 C CNN
+F 2 "" H 9700 2150 50  0001 C CNN
+F 3 "" H 9700 2150 50  0001 C CNN
+	1    9700 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9700 1800 9700 1750
+Wire Wire Line
+	9700 1750 9850 1750
+Wire Wire Line
+	10000 1750 10000 1800
+Wire Wire Line
+	9850 1750 9850 1700
+Connection ~ 9850 1750
+Wire Wire Line
+	9850 1750 10000 1750
+$Comp
+L power:VCC #PWR?
+U 1 1 5EFDEC68
+P 9850 1700
+F 0 "#PWR?" H 9850 1550 50  0001 C CNN
+F 1 "VCC" H 9867 1873 50  0000 C CNN
+F 2 "" H 9850 1700 50  0001 C CNN
+F 3 "" H 9850 1700 50  0001 C CNN
+	1    9850 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

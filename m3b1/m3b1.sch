@@ -13,114 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2050 1500 2    50   ~ 0
-GNACKH
-Wire Wire Line
-	1800 1500 2050 1500
-Text Label 2050 2100 2    50   ~ 0
-BNBL
-Wire Wire Line
-	1800 2100 2050 2100
-Text Label 1050 2000 0    50   ~ 0
-BNBH
-Wire Wire Line
-	1300 2000 1050 2000
-Text Label 1050 1200 0    50   ~ 0
-GDCL
-Wire Wire Line
-	1300 1200 1050 1200
-Text Label 1050 1400 0    50   ~ 0
-GDCH
-Wire Wire Line
-	1300 1400 1050 1400
-Text Label 1050 1300 0    50   ~ 0
-GNSELL
-Wire Wire Line
-	1300 1300 1050 1300
-Text Label 1050 1500 0    50   ~ 0
-GNSELH
-Wire Wire Line
-	1300 1500 1050 1500
-Text Label 950  2800 0    50   ~ 0
-COINC_n
-Wire Wire Line
-	1300 2800 950  2800
-Text Label 1050 1800 0    50   ~ 0
-LBML
-Wire Wire Line
-	1300 1800 1050 1800
-Text Label 1050 1700 0    50   ~ 0
-LBMH
-Wire Wire Line
-	1300 1700 1050 1700
-Text Label 2050 1300 2    50   ~ 0
-EXCL
-Wire Wire Line
-	1800 1300 2050 1300
-Text Label 2050 1400 2    50   ~ 0
-EXCH
-Wire Wire Line
-	1800 1400 2050 1400
-$Comp
-L gn_buffer:MicroD-37Pins P5
-U 1 1 5E8A6EC0
-P 1500 2100
-F 0 "P5" H 1550 3217 50  0000 C CNN
-F 1 "MicroD-37Pins" H 1550 3126 50  0000 C CNN
-F 2 "" H 1500 2100 50  0001 C CNN
-F 3 "~" H 1500 2100 50  0001 C CNN
-	1    1500 2100
-	1    0    0    1   
-$EndComp
-NoConn ~ 1300 2700
-NoConn ~ 1300 2600
-NoConn ~ 1300 2400
-NoConn ~ 1300 2100
-NoConn ~ 1300 1900
-NoConn ~ 1800 2800
-NoConn ~ 1800 2700
-NoConn ~ 1800 2600
-NoConn ~ 1800 2500
-NoConn ~ 1800 1600
-NoConn ~ 1800 1800
-NoConn ~ 1800 1900
-NoConn ~ 1800 2000
-NoConn ~ 1800 2300
-Wire Wire Line
-	1300 1600 1050 1600
-Text Label 1050 1600 0    50   ~ 0
-GNACKL
-NoConn ~ 1800 1700
-Wire Wire Line
-	1150 2550 1150 2600
-Wire Wire Line
-	1250 2500 1300 2500
-$Comp
-L gn_buffer:VBB #PWR?
-U 1 1 5E8A6ED9
-P 1150 2550
-F 0 "#PWR?" H 1150 2400 50  0001 C CNN
-F 1 "VBB" H 1167 2723 50  0000 C CNN
-F 2 "" H 1150 2550 50  0001 C CNN
-F 3 "" H 1150 2550 50  0001 C CNN
-	1    1150 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VEE #PWR?
-U 1 1 5E8A6EE6
-P 1175 3050
-F 0 "#PWR?" H 1175 2900 50  0001 C CNN
-F 1 "VEE" H 1192 3223 50  0000 C CNN
-F 2 "" H 1175 3050 50  0001 C CNN
-F 3 "" H 1175 3050 50  0001 C CNN
-	1    1175 3050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1300 3000 1175 3000
-Wire Wire Line
-	1175 3000 1175 3050
 $Comp
 L gn_buffer:MC306 U3
 U 1 1 5E884BB9
@@ -223,10 +115,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 6200 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gn_buffer:VBB #PWR?
+L gn_buffer:VBB #PWR0101
 U 1 1 5E8BAB87
 P 6100 3400
-F 0 "#PWR?" H 6100 3250 50  0001 C CNN
+F 0 "#PWR0101" H 6100 3250 50  0001 C CNN
 F 1 "VBB" V 6118 3527 50  0000 L CNN
 F 2 "" H 6100 3400 50  0001 C CNN
 F 3 "" H 6100 3400 50  0001 C CNN
@@ -262,30 +154,6 @@ Wire Wire Line
 	6800 3250 6600 3250
 Wire Wire Line
 	5600 3750 5800 3750
-Wire Wire Line
-	1800 2200 2250 2200
-Text Label 2250 2200 2    50   ~ 0
-MODSEL_n
-Wire Wire Line
-	1800 2400 2050 2400
-Text Label 2050 2400 2    50   ~ 0
-BUSY
-Wire Wire Line
-	1800 2900 2100 2900
-Text Label 2100 2900 2    50   ~ 0
-COINC
-Text Label 950  2900 0    50   ~ 0
-EXC_n
-Wire Wire Line
-	1300 2900 950  2900
-Text Label 900  2300 0    50   ~ 0
-LBM_n
-Wire Wire Line
-	1300 2300 900  2300
-Text Label 900  2200 0    50   ~ 0
-MODSEL
-Wire Wire Line
-	1300 2200 900  2200
 $Comp
 L gn_buffer:MC301 U8
 U 1 1 5E8FFC2F
@@ -298,10 +166,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 8750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gn_buffer:VBB #PWR?
+L gn_buffer:VBB #PWR0102
 U 1 1 5E9018B0
 P 8650 2400
-F 0 "#PWR?" H 8650 2250 50  0001 C CNN
+F 0 "#PWR0102" H 8650 2250 50  0001 C CNN
 F 1 "VBB" V 8667 2528 50  0000 L CNN
 F 2 "" H 8650 2400 50  0001 C CNN
 F 3 "" H 8650 2400 50  0001 C CNN
@@ -320,10 +188,10 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS27" H 8750 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L gn_buffer:VBB #PWR?
+L gn_buffer:VBB #PWR0103
 U 1 1 5E902DF4
 P 8650 3000
-F 0 "#PWR?" H 8650 2850 50  0001 C CNN
+F 0 "#PWR0103" H 8650 2850 50  0001 C CNN
 F 1 "VBB" V 8667 3128 50  0000 L CNN
 F 2 "" H 8650 3000 50  0001 C CNN
 F 3 "" H 8650 3000 50  0001 C CNN
@@ -445,10 +313,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 3900 9800 4400
 $Comp
-L power:VEE #PWR?
+L power:VEE #PWR0104
 U 1 1 5E9ADEB3
 P 9200 4050
-F 0 "#PWR?" H 9200 3900 50  0001 C CNN
+F 0 "#PWR0104" H 9200 3900 50  0001 C CNN
 F 1 "VEE" H 9218 4223 50  0000 C CNN
 F 2 "" H 9200 4050 50  0001 C CNN
 F 3 "" H 9200 4050 50  0001 C CNN
@@ -471,10 +339,10 @@ F 3 "~" H 10150 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VEE #PWR?
+L power:VEE #PWR0105
 U 1 1 5E9B438D
 P 10150 4050
-F 0 "#PWR?" H 10150 3900 50  0001 C CNN
+F 0 "#PWR0105" H 10150 3900 50  0001 C CNN
 F 1 "VEE" H 10168 4223 50  0000 C CNN
 F 2 "" H 10150 4050 50  0001 C CNN
 F 3 "" H 10150 4050 50  0001 C CNN
@@ -485,29 +353,6 @@ Wire Wire Line
 	10100 3700 10150 3700
 Wire Wire Line
 	10150 3700 10150 3750
-Wire Wire Line
-	1250 2500 1250 2600
-Wire Wire Line
-	1250 2600 1150 2600
-$Comp
-L power:VCC #PWR?
-U 1 1 602360A6
-P 1950 3150
-F 0 "#PWR?" H 1950 3000 50  0001 C CNN
-F 1 "VCC" H 1967 3323 50  0000 C CNN
-F 2 "" H 1950 3150 50  0001 C CNN
-F 3 "" H 1950 3150 50  0001 C CNN
-	1    1950 3150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 3000 1850 3000
-Wire Wire Line
-	1850 3000 1850 3200
-Wire Wire Line
-	1850 3200 1950 3200
-Wire Wire Line
-	1950 3200 1950 3150
 Text Notes 1050 1000 0    50   ~ 0
 Backplane Connections
 Wire Wire Line
@@ -570,10 +415,10 @@ Wire Wire Line
 Wire Wire Line
 	7250 1500 7300 1500
 $Comp
-L power:VEE #PWR?
+L power:VEE #PWR0106
 U 1 1 5E9EF88C
 P 7300 1850
-F 0 "#PWR?" H 7300 1700 50  0001 C CNN
+F 0 "#PWR0106" H 7300 1700 50  0001 C CNN
 F 1 "VEE" H 7318 2023 50  0000 C CNN
 F 2 "" H 7300 1850 50  0001 C CNN
 F 3 "" H 7300 1850 50  0001 C CNN
@@ -596,10 +441,10 @@ Wire Wire Line
 Wire Wire Line
 	6350 1550 6350 1500
 $Comp
-L power:VEE #PWR?
+L power:VEE #PWR0107
 U 1 1 5E9E2AD0
 P 6350 1850
-F 0 "#PWR?" H 6350 1700 50  0001 C CNN
+F 0 "#PWR0107" H 6350 1700 50  0001 C CNN
 F 1 "VEE" H 6368 2023 50  0000 C CNN
 F 2 "" H 6350 1850 50  0001 C CNN
 F 3 "" H 6350 1850 50  0001 C CNN
@@ -641,10 +486,10 @@ $EndComp
 NoConn ~ 5900 1350
 NoConn ~ 5800 1350
 $Comp
-L gn_buffer:VBB #PWR?
+L gn_buffer:VBB #PWR0108
 U 1 1 5E89D682
 P 5850 850
-F 0 "#PWR?" H 5850 700 50  0001 C CNN
+F 0 "#PWR0108" H 5850 700 50  0001 C CNN
 F 1 "VBB" V 5868 977 50  0000 L CNN
 F 2 "" H 5850 850 50  0001 C CNN
 F 3 "" H 5850 850 50  0001 C CNN
@@ -665,14 +510,14 @@ $EndComp
 Wire Wire Line
 	6700 1700 6700 2250
 Wire Wire Line
-	6700 2250 7200 2250
+	6700 2250 7350 2250
 Wire Wire Line
 	6950 1700 6950 2150
 Wire Wire Line
-	6950 2150 7200 2150
-Text Label 7200 2150 2    50   ~ 0
+	6950 2150 7350 2150
+Text Label 7350 2150 2    50   ~ 0
 GNACKH
-Text Label 7200 2250 2    50   ~ 0
+Text Label 7350 2250 2    50   ~ 0
 GNACKL
 $Comp
 L gn_buffer:MC306 U4
@@ -928,4 +773,245 @@ Text Notes 6650 2900 0    50   ~ 0
 Repeat Command Prevention
 Text Notes 3000 1050 0    50   ~ 0
 Coincidence Inverter
+Text Notes 3150 2750 0    50   ~ 0
+G&N Select
+Text Notes 2950 3450 0    50   ~ 0
+Group Decode Check
+Text Notes 5600 700  0    50   ~ 0
+Selection Acknowledgment
+Text Notes 9350 3050 0    50   ~ 0
+Buffer Not Busy
+$Comp
+L Device:C C?
+U 1 1 5F23054C
+P 9150 1450
+AR Path="/5F0BF7AF/5F23054C" Ref="C?"  Part="1" 
+AR Path="/5F23054C" Ref="C1"  Part="1" 
+F 0 "C1" H 9050 1500 50  0000 R CNN
+F 1 "0.1uF" H 9050 1400 50  0000 R CNN
+F 2 "" H 9188 1300 50  0001 C CNN
+F 3 "~" H 9150 1450 50  0001 C CNN
+	1    9150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F230552
+P 9450 1450
+AR Path="/5F0BF7AF/5F230552" Ref="C?"  Part="1" 
+AR Path="/5F230552" Ref="C2"  Part="1" 
+F 0 "C2" H 9550 1500 50  0000 L CNN
+F 1 "0.1uF" H 9550 1400 50  0000 L CNN
+F 2 "" H 9488 1300 50  0001 C CNN
+F 3 "~" H 9450 1450 50  0001 C CNN
+	1    9450 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1300 9150 1250
+Wire Wire Line
+	9150 1250 9300 1250
+Wire Wire Line
+	9450 1250 9450 1300
+Wire Wire Line
+	9300 1250 9300 1200
+Connection ~ 9300 1250
+Wire Wire Line
+	9300 1250 9450 1250
+$Comp
+L power:VCC #PWR0109
+U 1 1 5F24D900
+P 9300 1200
+F 0 "#PWR0109" H 9300 1050 50  0001 C CNN
+F 1 "VCC" H 9317 1373 50  0000 C CNN
+F 2 "" H 9300 1200 50  0001 C CNN
+F 3 "" H 9300 1200 50  0001 C CNN
+	1    9300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L gn_buffer:VBB #PWR0110
+U 1 1 5F24E31E
+P 9150 1650
+F 0 "#PWR0110" H 9150 1500 50  0001 C CNN
+F 1 "VBB" H 9168 1823 50  0000 C CNN
+F 2 "" H 9150 1650 50  0001 C CNN
+F 3 "" H 9150 1650 50  0001 C CNN
+	1    9150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VEE #PWR0111
+U 1 1 5F24EEA7
+P 9450 1650
+F 0 "#PWR0111" H 9450 1500 50  0001 C CNN
+F 1 "VEE" H 9468 1823 50  0000 C CNN
+F 2 "" H 9450 1650 50  0001 C CNN
+F 3 "" H 9450 1650 50  0001 C CNN
+	1    9450 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 1600 9450 1650
+Wire Wire Line
+	9150 1600 9150 1650
+Text Notes 3050 4750 0    50   ~ 0
+Execute
+Text Notes 2700 5650 0    50   ~ 0
+Load Buffer Memory
+Wire Wire Line
+	1975 3200 1850 3200
+Text Label 2150 1500 2    50   ~ 0
+GNACKH
+Text Label 2150 2100 2    50   ~ 0
+BNBL
+Text Label 900  2000 0    50   ~ 0
+BNBH
+Text Label 900  1200 0    50   ~ 0
+GDCL
+Text Label 900  1400 0    50   ~ 0
+GDCH
+Text Label 900  1300 0    50   ~ 0
+GNSELL
+Text Label 900  1500 0    50   ~ 0
+GNSELH
+Text Label 900  2800 0    50   ~ 0
+COINC_n
+Text Label 900  1800 0    50   ~ 0
+LBML
+Text Label 900  1700 0    50   ~ 0
+LBMH
+Text Label 2150 1300 2    50   ~ 0
+EXCL
+Text Label 2150 1400 2    50   ~ 0
+EXCH
+Text Label 900  1600 0    50   ~ 0
+GNACKL
+Wire Wire Line
+	1050 2550 1050 2600
+$Comp
+L gn_buffer:VBB #PWR0112
+U 1 1 5E992306
+P 1050 2550
+F 0 "#PWR0112" H 1050 2400 50  0001 C CNN
+F 1 "VBB" H 1067 2723 50  0000 C CNN
+F 2 "" H 1050 2550 50  0001 C CNN
+F 3 "" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0113
+U 1 1 5E99230C
+P 1975 3150
+F 0 "#PWR0113" H 1975 3000 50  0001 C CNN
+F 1 "VCC" H 1992 3323 50  0000 C CNN
+F 2 "" H 1975 3150 50  0001 C CNN
+F 3 "" H 1975 3150 50  0001 C CNN
+	1    1975 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 3150 1975 3200
+$Comp
+L power:VEE #PWR0114
+U 1 1 5E992313
+P 1125 3050
+F 0 "#PWR0114" H 1125 2900 50  0001 C CNN
+F 1 "VEE" H 1142 3223 50  0000 C CNN
+F 2 "" H 1125 3050 50  0001 C CNN
+F 3 "" H 1125 3050 50  0001 C CNN
+	1    1125 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1125 3000 1125 3050
+Text Label 900  2900 0    50   ~ 0
+EXC_n
+Text Label 900  2200 0    50   ~ 0
+MODSEL
+Text Label 900  2300 0    50   ~ 0
+LBM_n
+Text Label 2150 2900 2    50   ~ 0
+COINC
+Wire Wire Line
+	1850 3200 1850 3000
+Wire Wire Line
+	1050 2600 1150 2600
+Wire Wire Line
+	1150 2600 1150 2500
+Text Label 2150 2400 2    50   ~ 0
+BUSY
+Text Label 2150 2200 2    50   ~ 0
+MODSEL_n
+Wire Wire Line
+	1250 2200 900  2200
+Wire Wire Line
+	1250 2300 900  2300
+NoConn ~ 1250 2400
+Wire Wire Line
+	1150 2500 1250 2500
+NoConn ~ 1250 2600
+NoConn ~ 1250 2700
+Wire Wire Line
+	1750 1300 2150 1300
+Wire Wire Line
+	1750 1400 2150 1400
+Wire Wire Line
+	1750 1500 2150 1500
+NoConn ~ 1750 1600
+NoConn ~ 1750 1700
+NoConn ~ 1750 1800
+NoConn ~ 1750 1900
+NoConn ~ 1750 2000
+Wire Wire Line
+	1250 2800 900  2800
+Wire Wire Line
+	1750 2100 2150 2100
+Wire Wire Line
+	1750 2200 2150 2200
+NoConn ~ 1750 2300
+Wire Wire Line
+	1750 2400 2150 2400
+NoConn ~ 1750 2500
+NoConn ~ 1750 2600
+NoConn ~ 1750 2700
+NoConn ~ 1750 2800
+Wire Wire Line
+	1750 2900 2150 2900
+Wire Wire Line
+	1850 3000 1750 3000
+Wire Wire Line
+	1250 2900 900  2900
+Wire Wire Line
+	1250 1200 900  1200
+Wire Wire Line
+	1250 1300 900  1300
+Wire Wire Line
+	1250 1400 900  1400
+Wire Wire Line
+	1250 1500 900  1500
+Wire Wire Line
+	1250 1600 900  1600
+Wire Wire Line
+	1250 1700 900  1700
+Wire Wire Line
+	1250 1800 900  1800
+NoConn ~ 1250 1900
+Wire Wire Line
+	1250 2000 900  2000
+NoConn ~ 1250 2100
+Wire Wire Line
+	1250 3000 1125 3000
+$Comp
+L gn_buffer:MicroD-37Pins P5
+U 1 1 5E992348
+P 1450 2100
+F 0 "P5" H 1500 3217 50  0000 C CNN
+F 1 "MicroD-37Pins" H 1500 3126 50  0000 C CNN
+F 2 "" H 1450 2100 50  0001 C CNN
+F 3 "~" H 1450 2100 50  0001 C CNN
+	1    1450 2100
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

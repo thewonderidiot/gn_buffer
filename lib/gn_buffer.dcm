@@ -14,54 +14,54 @@ $ENDCMP
 $CMP MC301
 D Five-input OR/NOR gate
 K MECL Nor5 Or5
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC302
 D S-R flip-flop with expandable reset inputs
 K MECL SR FlipFlop
-F http://www.ti.com/lit/gpn/sn74LS107
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC305
 D Five-input expander
 K MECL Expander
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC306
 D Three-input OR/NOR with expandable inputs
 K MECL NOR3
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC307
 D Triple 3-input NOR
 K TTL Nor3
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC308
 D S-R Flip-Flop
-F http://www.ti.com/lit/gpn/sn74LS107
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC309
-D Dual two-input NOR gate
+D Dual 2-input NOR gate
 K MECL NOR2
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC310
 D Dual 2-input NOR gate with one pulldown optional
 K MECL NOR2
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MC311
 D Dual 2-input NOR with one pulldown omitted and one optional
 K MECL NOR2
-F http://www.ti.com/lit/gpn/sn74LS27
+F http://www.bitsavers.org/components/motorola/_dataBooks/1968_microElectronics/02_MECL.pdf
 $ENDCMP
 #
 $CMP MD3251
