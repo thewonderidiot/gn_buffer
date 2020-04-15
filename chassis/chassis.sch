@@ -725,11 +725,11 @@ F 3 "~" H 10400 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10200 6000 9850 6000
-Text Label 9850 6000 0    50   ~ 0
+Text Label 9850 5900 0    50   ~ 0
 B05L
 Wire Wire Line
 	10200 5900 9850 5900
-Text Label 9850 5900 0    50   ~ 0
+Text Label 9850 6000 0    50   ~ 0
 B05H
 Wire Wire Line
 	10700 5400 11050 5400
